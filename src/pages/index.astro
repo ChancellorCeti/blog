@@ -1,0 +1,52 @@
+---
+import Header from "../components/header.svelte";
+import RecentPost from "../components/recentpost.astro";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/blogicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="/home.css" />
+    <title>Chancellor Ceti's Blog</title>
+  </head>
+  <body>
+    <Header />
+    <h1 id="title">Chancellor Ceti</h1>
+    <p>
+      I'm Chancellor Ceti, student of the dark arts of mathematics. Web
+      developer and Rust programmer( 🦀🚀).
+    </p>
+    <p>
+      I'm best at number theory and combinatorics, but I dabble in all sorts of
+      things so expect to be surprised.
+    </p>
+    <hr />
+    <h2 id="recent_h">Recent Posts</h2>
+    <div id="recent">
+      {
+        allPosts
+          .slice(0, 10)
+          .map((post) => (
+            <RecentPost
+              title={post.frontmatter.title}
+              description={post.frontmatter.description}
+              pubdate={post.frontmatter.pubDate}
+              tags={post.frontmatter.tags}
+              url={post.url}
+              width={"90vw"}
+              height={"200vh"}
+            />
+          ))
+      }
+    </div>
+  </body>
+</html>

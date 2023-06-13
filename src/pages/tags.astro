@@ -1,0 +1,41 @@
+---
+import Header from "../components/header.svelte";
+import PostsWithTag from "../components/postswithtag.astro";
+let tags = [];
+const allPosts = await Astro.glob("../pages/posts/*.md");
+let tag_posts = [];
+for (let i = 0; i < tags.length; i++) {
+  tag_posts.push({
+    posts: allPosts.filter((post) => hasTag(post, tags[i])),
+    tag: tags[i],
+  });
+}
+function hasTag(post, tag) {
+  if (post.frontmatter.tags.includes(tag)) {
+    return true;
+  }
+  return false;
+}
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/blogicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <!--Icons-->
+    <link rel="stylesheet" href="/tags.css" />
+    <title>Astro</title>
+  </head>
+  <body>
+    <Header />
+    <h1 id="title">Blog posts</h1>
+    <h1 id="subtitle">Behold, all my blog posts organized by tags.</h1>
+    {
+      tag_posts.map((list) => (
+        <PostsWithTag posts={list.posts} tag={list.tag} />
+      ))
+    }
+  </body>
+</html>

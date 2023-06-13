@@ -1,0 +1,109 @@
+---
+const { width, height, title, tags, description, pubdate, totalwidth, url } =
+  Astro.props;
+---
+
+<div id="container">
+  <div id="subcontainer">
+    <span class="date">{pubdate.split("T")[0]}</span>
+    <a href={url} class="post_title">{title}</a>
+    <h2 class="desc">{description}</h2>
+    <h3 class="tags">
+      {tags.slice(0, tags.length - 1).map((tag) => `${tag},`)}{
+        tags[tags.length - 1]
+      }
+    </h3>
+  </div>
+</div>
+<style define:vars={{ width, height }}>
+  #container {
+    width: var(--width);
+    height: calc(var(--height) / 10);
+  }
+  @media only screen and (max-width: 700px) {
+    #container {
+      margin-top: 5vh;
+    }
+    .tags {
+      margin-top: 0.5vh;
+    }
+  }
+  .date {
+    margin-left: 5vw;
+    color: #2e736e;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  #subcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    text-decoration: underline;
+  }
+  .post_title {
+    margin-left: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 0vh;
+    color: #4ecdc4;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .desc {
+    margin-left: 5vw;
+    margin-top: 1vh;
+    color: #4ecdc4;
+    font-size: calc(10px + 0.7vh);
+    margin-bottom: 0vh;
+    font-weight: 500;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tags {
+    margin-left: 5vw;
+    margin-top: 1vh;
+    color: #4ecdc4;
+    font-size: calc(5px + 0.6vh);
+    font-weight: 400;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  @media only screen and (min-width: 850px) {
+    #container {
+      margin-top: 5vh;
+      max-height: 100vh;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #subcontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .post_title {
+      font-size: calc(10px + 2vw);
+      width: fit-content;
+      margin-left: 0;
+    }
+    a {
+      width: 100%;
+      font-size: 40px;
+      text-align: center;
+    }
+    .desc {
+      font-size: calc(10px + 1vw);
+      margin-left: 0;
+    }
+    .tags {
+      margin-left: 0;
+      font-size: calc(10px + 0.5vw);
+    }
+    .date {
+      font-size: calc(20px + 0.5vw);
+      margin-left: 0;
+    }
+  }
+</style>
