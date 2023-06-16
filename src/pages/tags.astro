@@ -1,6 +1,7 @@
 ---
 import Header from "../components/header.svelte";
 import PostsWithTag from "../components/postswithtag.astro";
+import Layout from './layouts/Layout.astro'
 let tags = ["algorithm","project euler"];
 const allPosts = await Astro.glob("../pages/posts/*.md");
 let tag_posts = [];
@@ -17,7 +18,7 @@ function hasTag(post, tag) {
   return false;
 }
 ---
-
+<Layout>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -26,17 +27,6 @@ function hasTag(post, tag) {
     <meta name="generator" content={Astro.generator} />
     <!--Icons-->
     <link rel="stylesheet" href="/tags.css" />
-    
-<!-- Google tag (gtag.js) -->
-<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-HTBC8FKTFB"></script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HTBC8FKTFB');
-</script>
-
     <title>Astro</title>
   </head>
   <body>
@@ -50,3 +40,4 @@ function hasTag(post, tag) {
     }
   </body>
 </html>
+</Layout>

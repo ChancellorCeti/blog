@@ -1,9 +1,10 @@
 ---
 import Header from "../../components/header.svelte";
+import Layout from './Layout.astro'
 import "../../../public/post.css";
 const { frontmatter } = Astro.props;
 ---
-
+<Layout>
 <html>
   <head>
     <link
@@ -12,20 +13,10 @@ const { frontmatter } = Astro.props;
       integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ"
       crossorigin="anonymous"
     />
-    
-<!-- Google tag (gtag.js) -->
-<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-HTBC8FKTFB"></script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HTBC8FKTFB');
-</script>
-
   </head>
   <body>
     <Header />
     <slot id="content" />
   </body>
 </html>
+</Layout>

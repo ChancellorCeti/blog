@@ -1,9 +1,10 @@
 ---
 import Header from "../components/header.svelte";
 import RecentPost from "../components/recentpost.astro";
+import Layout from './layouts/Layout.astro'
 const allPosts = await Astro.glob("../pages/posts/*.md");
 ---
-
+<Layout>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -16,16 +17,6 @@ const allPosts = await Astro.glob("../pages/posts/*.md");
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
     
-<!-- Google tag (gtag.js) -->
-<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-HTBC8FKTFB"></script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HTBC8FKTFB');
-</script>
-
     <link rel="stylesheet" href="/home.css" />
     <title>Chancellor Ceti's Blog</title>
   </head>
@@ -61,3 +52,4 @@ const allPosts = await Astro.glob("../pages/posts/*.md");
     </div>
   </body>
 </html>
+</Layout>

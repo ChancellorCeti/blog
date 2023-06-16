@@ -1,7 +1,8 @@
 ---
 import Header from "../components/header.svelte";
+import Layout from './layouts/Layout.astro'
 ---
-
+<Layout>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -10,17 +11,6 @@ import Header from "../components/header.svelte";
     <meta name="generator" content={Astro.generator} />
     <!--Icons-->
     <link rel="stylesheet" href="/about.css" />
-
-<!-- Google tag (gtag.js) -->
-<script type="text/partytown" async src="https://www.googletagmanager.com/gtag/js?id=G-HTBC8FKTFB"></script>
-<script type="text/partytown">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-HTBC8FKTFB');
-</script>
-
     <title>Astro</title>
   </head>
   <body>
@@ -55,3 +45,4 @@ import Header from "../components/header.svelte";
     </p>
   </body>
 </html>
+</Layout>
