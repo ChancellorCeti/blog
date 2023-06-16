@@ -402,7 +402,7 @@ the</p>
 all purposes, this will be perfectly fine performance. If anyone finds a
 mistake in any of this or a cool optimization, please contact me on
 Discord at</p>
-<pre><code>Floofy Doggo#2244</code></pre>
+<pre><code>floofydoggo</code></pre>
 <p>or email me at chancellorceti@gmail.com And now, finally the
 long-awaited code!</p>
 <div class="sourceCode" id="cb5" data-language="Rust" style="boxed"><pre
