@@ -17,7 +17,7 @@ tags: ["number theory", "math"]
 
 <style>
     html {
-      color: #1a1a1a;
+      color: #cdd6f4;
       background-color: #000500 ;
     }
     body {
@@ -30,7 +30,7 @@ tags: ["number theory", "math"]
       font-size:18px;
     }
     *{
-        color:white;
+        color:#cdd6f4;
     }
     .sourceCode span > *{
         color:black;
