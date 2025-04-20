@@ -2,7 +2,7 @@
 import Header from "../components/header.svelte";
 import PostsWithTag from "../components/postswithtag.astro";
 import Layout from './layouts/Layout.astro'
-let tags = ["algorithm","project euler","math","number theory"];
+let tags = ["algorithm","project euler","math","number theory","physics","electrodynamics"];
 const allPosts = await Astro.glob("../pages/posts/*.md");
 let tag_posts = [];
 for (let i = 0; i < tags.length; i++) {
