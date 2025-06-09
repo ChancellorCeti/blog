@@ -1,0 +1,38 @@
+---
+import Header from "../components/header.svelte";
+import Layout from './layouts/Layout.astro'
+---
+<Layout>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/blogicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <!--Icons-->
+    <link rel="stylesheet" href="/projects.css" />
+    <title>About | Chancellor Ceti</title>
+  </head>
+  <body>
+    <Header />
+    <h1>My Projects (this page is a work in progress)</h1>
+    <div id="projects-container">
+            <div class="project-container">
+                <h2>Ensimismarse</h2>
+                <p>Rust library that allows integration and differentation of many mathematical expressions, as well as functions to simplify and evaluate expressions </p>
+            </div>
+            <div class="project-container">
+                <h2>SlurpSlurp Regression</h2>
+                <p>Multivariable nonlinear regression library written in Rust, utilizes the ensimismarse library (also created by me) </p>
+            </div>
+            <div class="project-container">
+                <h2>White Rabbit</h2>
+                <p>A simple email server and terminal email client written in C</p>
+            </div>
+            <div class="project-container">
+                <h2>Blocktanks Analytics</h2>
+                <p>Fetches data on players in blocktanks matches and maps being played every 5 minutes and stores the data in a database, from which it can extracted later in any format for data analysis. </p>
+            </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,375 @@
+---
+import Header from "../components/header.svelte";
+---
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+      integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ"
+      crossorigin="anonymous"
+    />
+  </head>
+<style>
+    body {
+  background-color: #b1b6a6 !important;
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+  background-image: radial-gradient(
+    rgb(24, 26, 27) 1px,
+    rgb(0, 4, 0) 0px
+  ) !important;
+  background-size: 50px 50px !important;
+}
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+li {
+  color: #4ecdc4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: calc(20px + 1vw);
+  width: 80%;
+  margin-left: 10vw;
+    text-align: left;
+}
+    h2{
+  color: #4ecdc4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: calc(20px + 2vw);
+  width: 80%;
+  margin-left: 10vw;
+    text-align: left;
+    }
+h3{
+  color: #4ecdc4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: calc(20px + 1.5vw);
+  width: 80%;
+  margin-left: 10vw;
+    text-align: left;
+    }
+h1{
+  color: #4ecdc4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: calc(20px + 2.5vw);
+  width: 80%;
+  margin-left: 10vw;
+    text-align: left;
+    }
+    </style>
+  <body>
+    <Header />
+        <h1>An attempt at listing all the movies and TV shows I've ever seen -- I've likely forgotten some</h1>
+        <h2> TV Shows</h2>
+
+<ul>
+    <li>Stranger Things (first 3 seasons)</li>
+    <li>Good Omens</li>
+    <li>The Gentlemen</li>
+    <li>West Wing (best TV show I've ever seen)</li>
+    <li>Newsroom</li>
+    <li>Jack Ryan (season 1-3)</li>
+    <li>Slow Horses</li>
+    <li>Lego Ninjago (until they changed art style to garbage)</li>
+    <li>Dragon Prince</li>
+    <li>Merlin</li>
+    <li>All Hail King Julien</li>
+    <li>Doctor Who (until season 13)</li>
+    <li>Falling Into Your Smile (kdrama)</li>
+    <li>Crash Landing on You (kdrama)</li>
+    <li>Masters of the Air</li>
+    <li>Monty Python's Flying Circus</li>
+    <li>Crown</li>
+    <li>The Recruit</li>
+    <li>Chernobyl</li>
+    <li>White House Plumbers</li>
+    <li>Family Man (hindi)</li>
+    <li>3 Body Problem</li>
+    <li>Wayne</li>
+</ul>
+
+        <h2>  Movies -- 151 from not India, 118 from India </h2>
+
+        <h3> Not from India (better categorization is a work in progress)</h3>
+
+<ul>
+    <li>The Working Class Goes to Heaven</li>
+    <li>The Spider's Stratagem</li>
+    <li>The Threepenny Opera (1931, Pabst)</li>
+    <li>The Conformist</li>
+    <li>Lawrence of Arabia</li>
+    <li>The Last Emperor</li>
+    <li>The Martian</li>
+    <li>Invictus</li>
+    <li>Un Chien Andalou</li>
+    <li>The Full Monty</li>
+    <li>Death of Stalin</li>
+    <li>Parasite</li>
+    <li>Stalker (Tarkovsky)</li>
+    <li>Interstellar</li>
+    <li>Scarface</li>
+    <li>Apocalypse Now</li>
+    <li>Spirited Away</li>
+    <li> One Flew Over the Cuckoo's Nest</li>
+    <li>The Midnight Sky  </li>
+    <li>The Day After Tomorrow  </li>
+    <li>The Green Zone</li>
+    <li>13 Hours: The Secret Soldiers of Benghazi</li>
+    <li>Untouchables  </li>
+    <li>The Imitation Game  </li>
+    <li>Dunkirk </li>
+    <li>Dark Waters</li>
+    <li>Ferris Bueler's Day Off</li>
+    <li>Farewell My Concubine</li>
+    <li>The Pianist</li>
+    <li>Oppenheimer </li>
+    <li>The Fellowship of the Ring</li>
+    <li>The Two Towers</li>
+    <li>The Return of the King</li>
+    <li>Solo: A Star Wars Story</li>
+    <li>Star Wars: Episode I -- The Phantom Menace</li>
+    <li>Star Wars: Episode II -- Attack of the Clones</li>
+    <li>Star Wars: Episode III -- Revenge of the Sith</li>
+    <li>Star Wars: Episode IV -- A New Hope</li>
+    <li>Star Wars: Episode V -- The Empire Strikes Back</li>
+    <li>Star Wars: Episode VI -- Return of the Jedi</li>
+    <li>Star Wars: Episode VII -- The Force Awakens</li>
+    <li>Star Wars: Episode VIII -- The Last Jedi</li>
+    <li>Harry Potter and the Sorcerer's Stone (2001)</li>
+    <li>Harry Potter and the Chamber of Secrets (2002)</li>
+    <li>Harry Potter and the Prisoner of Azkaban (2004)</li>
+    <li>Harry Potter and the Goblet of Fire (2005)</li>
+    <li>Harry Potter and the Order of the Phoenix (2007)</li>
+    <li>Harry Potter and the Half-Blood Prince (2009)</li>
+    <li>Harry Potter and the Deathly Hallows – Part 1 (2010)</li>
+    <li>Harry Potter and the Deathly Hallows – Part 2 (2011)</li>
+    <li>Fantastic Beasts and Where to Find Them (2016)</li>
+    <li>Fantastic Beasts: The Crimes of Grindelwald (2018)</li>
+    <li>Fantastic Beasts: The Secrets of Dumbledore (2022)</li>
+    <li>Pulp Fiction</li>
+    <li>Life of Pi</li>
+    <li>Taxi Driver</li>
+    <li>The Princess Bride</li>
+    <li>The Sixth Sense</li>
+    <li>Heat (Al Pacino and Robert De Niro)</li>
+    <li>Ikiru</li>
+    <li>Dersu Uzala</li>
+    <li>Seven Years in Tibet</li>
+    <li>The Godfather (1972)</li>
+    <li>The Godfather Part II (1974)</li>
+    <li>The Godfather Part III (2020, Coppola's revised cut)</li>
+    <li>The Adjustment Bureau </li>
+    <li>Serenity (silly but fun movie)</li>
+    <li>True Grit</li>
+    <li>Blackhat (silly but fun movie)</li>
+    <li>The Arrival</li>
+    <li>O Brother, Where Art Thou?</li>
+    <li>A Time to Kill</li>
+    <li>Serpico</li>
+    <li>A Dog Day Afternoon</li>
+    <li>Raiders of the Lost Ark (1981)</li>
+    <li>Indiana Jones and the Temple of Doom (1984)</li>
+    <li>Indiana Jones and the Last Crusade (1989)</li>
+    <li>National Treasure</li>
+    <li>Monty Python's Life of Brian</li>
+    <li>Monty Python and the Holy Grail</li>
+    <li>Batman Begins</li>
+    <li>The Dark Knight</li>
+    <li>The Dark Knight Rises</li>
+    <li>Inception</li>
+    <li>Mission: Impossible (1996)</li>
+    <li>Mission: Impossible 2 (2000)</li>
+    <li>Mission: Impossible III (2006)</li>
+    <li>Mission: Impossible -- Ghost Protocol (2011)</li>
+    <li>Mission: Impossible -- Rogue Nation (2015)</li>
+    <li>Mission: Impossible --  Fallout (2018)</li>
+    <li>Mission: Impossible -- Dead Reckoning Part One (2023)</li>
+    <li>The World is Not Enough (James Bond)</li>
+    <li>Casino Royale (2006) (James Bond)</li>
+    <li>Quantum of Solace (2008) (James Bond)</li>
+    <li>Skyfall (2012) (James Bond)</li>
+    <li>Spectre (2015) (James Bond)</li>
+    <li>No Time to Die (2021) (James Bond)</li>
+    <li>Kingsman: The Secret Service</li>
+    <li>The Terminal</li>
+    <li>Rainmaker</li>
+    <li>Runaway Jury</li>
+    <li>The King's Speech</li>
+    <li>Hotel Rwanda</li>
+    <li>The Illusionist</li>
+    <li>Now You See Me (only first movie)</li>
+    <li>Rush Hour</li>
+    <li>Rush Hour 2</li>
+    <li>Rush Hour 3</li>
+    <li>The Matrix</li>
+    <li>V for Vendetta</li>
+    <li>Bill and Ted's Excellent Adventure</li>
+    <li>Bill and Ted's Bogus Journey</li>
+    <li>Clockwork orange</li>
+    <li>Jaws</li>
+    <li>Scent of a Woman</li>
+    <li>The Bourne Identity (2002)</li>
+    <li>The Bourne Supremacy (2004)</li>
+    <li>The Bourne Ultimatum (2007)</li>
+    <li>The Bourne Legacy (2012)</li>
+    <li>Catch me if you can</li>
+    <li>Titanic</li>
+    <li>Stardust</li>
+    <li>Apollo 13</li>
+    <li>The Judge</li>
+    <li>Domestic Disturbance</li>
+    <li>Home Alone (1990)</li>
+    <li>Home Alone 2: Lost in New York (1992)</li>
+    <li>9 Lives</li>
+    <li>Wargames</li>
+    <li>Lincoln (2012)</li>
+    <li>Midnight Run</li>
+    <li>Despicable Me (2010)</li>
+    <li>Despicable Me 2 (2013)</li>
+    <li>Minions (2015)</li>
+    <li>Despicable Me 3 (2017)</li>
+    <li>Minions: The Rise of Gru (2022)</li>
+    <li>Despicable Me 4 (2024)</li>
+    <li>Moneyball</li>
+    <li>The Social Network</li>
+    <li>Taken</li>
+    <li>Non-Stop</li>
+    <li>Battle:Los Angeles</li>
+    <li>American Pie</li>
+    <li>American Pie 2</li>
+    <li>White House Down</li>
+    <li>London has fallen</li>
+    <li>Extraction</li>
+    <li>Extraction 2</li>
+    <li>Money Monster</li>
+    <li>Operation Finale</li>
+    <li>Dumb and Dumber</li>
+</ul>
+
+        <h3> From India</h3>
+
+<ul>
+    <li>Newton (hindi movie)</li>
+    <li>Mubarakan</li>
+    <li>12th Fail</li>
+<li>    Kai Po Che</li>
+<li>    Lagaan</li>
+<li>    Swades</li>
+<li>    Rang de Basanti</li>
+    <li>RRR</li>
+<li>    A Wednesday</li>
+<li>    Wazir</li>
+<li>    Major (hindi movie)</li>
+<li>    Dangal</li>
+<li>    Sultan</li>
+<li>    Haider</li>
+<li>    Paan Singh Tomar</li>
+<li>    Special 26</li>
+<li> Andhadhun</li>
+<li>    Queen</li>
+<li>    Drishyam</li>
+<li> Drishyam 2</li>
+<li>    Three Idiots</li>
+<li>    Rajneeti</li>
+<li>    Anek</li>
+<li>    Article 15</li>
+<li>    An Action Hero</li>
+<li>    Piku</li>
+<li>    Ayushman</li>
+<li>    Akrosh</li>
+<li>    Chak De India</li>
+<li>    Guru</li>
+<li>    PK</li>
+<li>    Bajrangi Bhaijaan</li>
+<li>    Stree</li>
+<li> Stree 2 </li>
+<li>    Airlift (hindi)</li>
+<li>    Jo Jeeta Wohi Sikandar</li>
+<li>    My Name is Khan</li>
+<li>    MS Dhoni</li>
+<li>    Don</li>
+<li>    Veer-Zaara</li>
+<li>    Romeo Akbar Walter</li>
+<li>    Parmanu</li>
+<li>    Toilet Ek Prem katha</li>
+<li>    Raazi</li>
+<li>    Sholay</li>
+<li>    Andaz Apna Apna</li>
+<li> Bangistan</li>
+<li>    Hera Pheri</li>
+<li>    OMG -- Oh My God (hindi)</li>
+<li>    Chennai Express</li>
+<li>    Atrangi Re</li>
+<li>    Lakshya</li>
+<li>    Luka Chuppi</li>
+<li>    Simmba (hindi)</li>
+<li>    Sooryavanshi</li>
+<li>    Singham movies</li>
+<li>    Rab ne Bana di Jodi</li>
+<li>    Ek Tha Tiger</li>
+<li> Tiger Zinda Hai</li>
+    <li> Tiger 3</li>
+<li>    Rustom</li>
+<li>    Main Hoo Na</li>
+<li>    Raat Akeli Ha</li>
+<li>    Munna Bhai M.B.B.S.</li>
+<li>    Peepli Live</li>
+<li>    Choked Paisa Bolta Hai</li>
+<li>    Batla House (2019)</li>
+<li>    Aiyaary</li>
+<li>    Dhoom</li>
+<li>    Kesari</li>
+<li>    Angrezi Medium</li>
+<li>    Super 30</li>
+<li>    '83</li>
+<li>    Thappad</li>
+<li>    Jolly LLB</li>
+<li>    Section 375</li>
+<li>    Karthik Calling Karthik</li>
+    <li> Om Shanti Om</li>
+<li>    Gabbar is Back</li>
+<li>    Bell Bottom</li>
+    <li>Jaatishwar</li>
+<li>    Tubelight</li>
+    <li>Happy New Year</li>
+    <li> War Chodd na yaar</li>
+    <li>Bazaar</li>
+    <li>Scam 1992</li>
+    <li>Dilwale (the one with Shah Rukh Khan)</li>
+    <li>Khalnayak</li>
+    <li>Jagga Jasoos</li>
+    <li>Phas Gaya re Obama</li>
+<li>Phir Bhi Dil Hai Hindustani</li>
+    <li>Jaane Tu... Ya Jaane Na</li>
+<li>Dil Dhadakne Do</li>
+    <li>Secret Superstar</li>
+    <li>Laapataa Ladies</li>
+    <li>Ladies vs Ricky Bahl</li>
+    <li>Sui Dhaaga</li>
+<li>Phantom</li>
+    <li>Pukar</li>
+    <li>Ferrari Ki Savaari</li>
+    <li>Jersey</li>
+<li>Coolie Number One</li>
+    <li>Jug Jug Jeeyo</li>
+<li>Jab We Met</li>
+    <li>The Big Bull</li>
+        <li>Runway 34</li>
+<li>Raid (Ajay Devgan)</li>
+<li>Saheb Biwi Aur Gangster Returns</li>
+<li>Darlings</li>
+        <li>Badrinath Ki Dulhania</li>
+        <li>Shehzada</li>
+        <li>Bhool Bulaiyaa 2</li>
+            <li>Bhool Bulaiyaa 3</li>
+    <li>Lootera</li>
+        <li>Tera Naal Love ho gaya</li>
+        <li>Kurbaan</li>
+        <li>Barfi</li>
+<li>Student of the Year</li>
+    </ul>
+  </body>
+</html>

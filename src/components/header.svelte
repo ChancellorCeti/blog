@@ -5,16 +5,24 @@
 <div id="headercontainer">
     <a href="/" class="linkcontainer">
         <span class="material-symbols-outlined"> home </span>
+        <h5>Home</h5>
     </a>
     <a href="/tags" class="linkcontainer">
         <span class="material-symbols-outlined"> feed </span>
+        <h5>Search Posts by Tag</h5>
     </a>
     <a href="/about" class="linkcontainer">
         <span class="material-symbols-outlined"> info </span>
+        <h5>About Me</h5>
     </a>
-    <a href="mailto:chancellorceti@gmail.com" class="linkcontainer"
-        ><span class="material-symbols-outlined"> mail </span></a
-    >
+    <a href="/projects" class="linkcontainer">
+        <span class="material-symbols-outlined"> code </span>
+        <h5>My Projects</h5>
+    </a>
+    <a href="mailto:chancellorceti@gmail.com" class="linkcontainer">
+        <span class="material-symbols-outlined"> mail </span>
+        <h5>Contact Me</h5>
+    </a>
 </div>
 
 <style is:global>
@@ -27,15 +35,32 @@
         vertical-align: middle;
         margin: 0 0 0 0;
     }
+    a{
+        text-decoration:none;
+        color: #4ecdc4;
+    }
+    a::visited{
+        text-decoration:none;
+    }
     .linkcontainer {
         width: 100%;
         cursor: pointer;
         display: flex;
-        flex-direction: row;
+        align-items:center;
+        flex-direction: column;
+        height:18vh;
+        text-align:center;
         justify-content: center;
+    }
+    h5{
+        font-size: calc(1px+0.8vh+0.1vw);
+        margin: 0 0 0 0;
+        margin-top:2vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     span {
         color: #4ecdc4;
+        font-size: calc(1px+0.1vh+0.1vw);
         text-align: center;
     }
     @media only screen and (min-width: 600px) {

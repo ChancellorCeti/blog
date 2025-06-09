@@ -27,16 +27,26 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p {
+h2 {
   color: #4ecdc4;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: calc(10px + 2vw);
   margin-left: 5vw;
   width: 85vw;
 }
-a, a::visited{
+p {
   color: #4ecdc4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: calc(9px + 1.5vw);
+  margin-left: 5vw;
+  width: 85vw;
 }
-p a{
-  color: #4ecdc4;
+#projects-container{
+    display:flex;
+    flex-wrap:wrap;
+}
+.project-container{
+    flex:1 0 40%;
+    margin: 10px;
+    text-align: center;
 }
