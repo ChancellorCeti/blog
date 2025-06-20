@@ -19,10 +19,6 @@
         <span class="material-symbols-outlined"> code </span>
         <h5>My Projects</h5>
     </a>
-    <a href="mailto:chancellorceti@gmail.com" class="linkcontainer">
-        <span class="material-symbols-outlined"> mail </span>
-        <h5>Contact Me</h5>
-    </a>
 </div>
 
 <style is:global>
