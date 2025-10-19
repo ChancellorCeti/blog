@@ -5,19 +5,19 @@
 <div id="headercontainer">
     <a href="/" class="linkcontainer">
         <span class="material-symbols-outlined"> home </span>
-        <h5>Home</h5>
+        <h5 class="header_text">Home</h5>
     </a>
     <a href="/tags" class="linkcontainer">
         <span class="material-symbols-outlined"> feed </span>
-        <h5>Search Posts by Tag</h5>
+        <h5 class="header_text">Search Posts by Tag</h5>
     </a>
     <a href="/about" class="linkcontainer">
         <span class="material-symbols-outlined"> info </span>
-        <h5>About Me</h5>
+        <h5 class="header_text">About Me</h5>
     </a>
     <a href="/projects" class="linkcontainer">
         <span class="material-symbols-outlined"> code </span>
-        <h5>My Projects</h5>
+        <h5 class="header_text">My Projects</h5>
     </a>
 </div>
 
