@@ -1,43 +1,96 @@
 ---
 import Header from "../components/header.svelte";
-import PostsWithTag from "../components/postswithtag.astro";
-import Layout from './layouts/Layout.astro'
-let tags = ["project euler","math","physics","film reviews","book reviews", "personal rambling"];
+import Layout from "./layouts/Layout.astro";
+
+const tags = [
+  "project euler",
+  "math",
+  "physics",
+  "film reviews",
+  "book reviews",
+  "personal rambling",
+];
+
 const allPosts = await Astro.glob("../pages/posts/*.md");
-let tag_posts = [];
-for (let i = 0; i < tags.length; i++) {
-  tag_posts.push({
-    posts: allPosts.filter((post) => hasTag(post, tags[i])),
-    tag: tags[i],
-  });
-}
-function hasTag(post, tag) {
-  if (post.frontmatter.tags.includes(tag)) {
-    return true;
-  }
-  return false;
-}
+
+const posts = allPosts.map((post) => ({
+  title: post.frontmatter.title,
+  url: post.url,
+  tags: post.frontmatter.tags,
+  date: new Date(post.frontmatter.date),
+}));
 ---
+
 <Layout>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/blogicon.png" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <!--Icons-->
-    <link rel="stylesheet" href="/tags.css" />
     <title>Tags | Chancellor Ceti</title>
+    <link rel="stylesheet" href="/tags.css" />
+    <meta name="generator" content={Astro.generator} />
   </head>
+
   <body>
-    <Header />
+   <Header />
+            <div id="tags-container">
     <h1 id="title">Blog posts</h1>
-    <h1 id="subtitle">Behold, all my blog posts organized by tags.</h1>
-    {
-      tag_posts.map((list) => (
-        <PostsWithTag posts={list.posts} tag={list.tag} />
-      ))
-    }
+                <h1 id="subtitle">Filter posts by selecting tags</h1>
+
+    <div id="tag-buttons">
+      {tags.map((tag) => (
+        <button class="tag-btn" data-tag={tag}>{tag}</button>
+      ))}
+    </div>
+
+    <div id="results"></div>
+            </div>
+    <script define:vars={{ posts }}>
+      const selectedTags = new Set();
+      const buttons = document.querySelectorAll(".tag-btn");
+      const results = document.getElementById("results");
+
+      function render() {
+        results.innerHTML = "";
+
+        if (selectedTags.size === 0) return;
+
+        const matches = posts.filter((post) =>
+          [...selectedTags].every((tag) => post.tags.includes(tag))
+        );
+
+        matches.forEach((post) => {
+          const relevantTags = post.tags.filter((t) =>
+            selectedTags.has(t)
+          );
+
+          const div = document.createElement("div");
+          div.className = "post";
+          div.innerHTML = `
+            <a href="${post.url}"><h3>${post.title}</h3></a>
+            <div class="post-tags">${relevantTags.join(", ")}</div>
+          `;
+          results.appendChild(div);
+        });
+      }
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const tag = btn.dataset.tag;
+          btn.classList.toggle("active");
+
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+          } else {
+            selectedTags.add(tag);
+          }
+
+          render();
+        });
+      });
+    </script>
+
   </body>
 </html>
 </Layout>

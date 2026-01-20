@@ -17,8 +17,6 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
 </div>
 <style define:vars={{ width, height }}>
   #container {
-    width: var(--width);
-    height: calc(var(--height) / 10);
   }
   @media only screen and (max-width: 700px) {
     #container {
@@ -56,7 +54,7 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     margin-left: 5vw;
     margin-top: 1vh;
     color: #4ecdc4;
-    font-size: calc(10px + 0.7vh);
+    font-size: calc(10px + 0.5vh);
     margin-bottom: 0vh;
     font-weight: 500;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -84,7 +82,7 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
       align-items: center;
     }
     .post_title {
-      font-size: calc(10px + 2vw);
+      font-size: calc(10px + 1.5vw);
       width: fit-content;
       margin-left: 0;
     }

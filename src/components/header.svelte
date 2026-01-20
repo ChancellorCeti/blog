@@ -4,19 +4,19 @@
 />
 <div id="headercontainer">
     <a href="/" class="linkcontainer">
-        <span class="material-symbols-outlined"> home </span>
+        <span class="material-symbols-outlined menu-symbol"> home </span>
         <h5 class="header_text">Home</h5>
     </a>
     <a href="/tags" class="linkcontainer">
-        <span class="material-symbols-outlined"> feed </span>
+        <span class="material-symbols-outlined menu-symbol"> feed </span>
         <h5 class="header_text">Search Posts by Tag</h5>
     </a>
     <a href="/about" class="linkcontainer">
-        <span class="material-symbols-outlined"> info </span>
+        <span class="material-symbols-outlined menu-symbol"> info </span>
         <h5 class="header_text">About Me</h5>
     </a>
     <a href="/projects" class="linkcontainer">
-        <span class="material-symbols-outlined"> code </span>
+        <span class="material-symbols-outlined menu-symbol"> code </span>
         <h5 class="header_text">My Projects</h5>
     </a>
 </div>
@@ -31,11 +31,11 @@
         vertical-align: middle;
         margin: 0 0 0 0;
     }
-    a{
+    .linkcontainer{
         text-decoration:none;
         color: #4ecdc4;
     }
-    a::visited{
+    .linkcontainer::visited{
         text-decoration:none;
     }
     .linkcontainer {
@@ -48,24 +48,25 @@
         text-align:center;
         justify-content: center;
     }
-    h5{
-        font-size: calc(1px+0.8vh+0.1vw);
+    .header_text{
+        font-size: calc(8px + 0.8vh + 0.1vw);
         margin: 0 0 0 0;
         margin-top:2vh;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
-    span {
+    .menu-symbol {
         color: #4ecdc4;
         font-size: calc(1px+0.1vh+0.1vw);
         text-align: center;
     }
     @media only screen and (min-width: 600px) {
-        span {
+        .menu-symbol {
             transform: scale(2, 2);
         }
     }
     #headercontainer {
         height: 18vh;
+        width:100vw;
         display: flex;
         flex-direction: row;
         margin: 0 0 0 0;

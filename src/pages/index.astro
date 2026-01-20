@@ -41,8 +41,6 @@ const allPosts = await Astro.glob("../pages/posts/*.md");
               pubdate={post.frontmatter.pubDate}
               tags={post.frontmatter.tags}
               url={post.url}
-              width={"90vw"}
-              height={"200vh"}
             />
           ))
       }
