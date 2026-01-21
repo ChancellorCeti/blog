@@ -17,7 +17,7 @@ html {
 h1 {
     color: #4ecdc4;
     margin-top: calc(5vh + 5vw);
-    font-size: calc(40px + 2vw);
+    font-size: calc(20px + 2vw);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,15 +30,18 @@ h1 {
 h2 {
     color: #4ecdc4;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: calc(10px + 2vw);
+    font-size: calc(10px + 1.5vw);
     margin-left: 5vw;
     width: 85vw;
+}
+h2,p{
+    text-align: left;
 }
 
 p {
     color: #4ecdc4;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: calc(9px + 1.5vw);
+    font-size: calc(9px + 1vw);
     margin-left: 5vw;
     width: 85vw;
 }
@@ -51,7 +54,7 @@ p {
 .project-container {
     flex: 1 0 40%;
     margin: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 a,
@@ -62,7 +65,8 @@ a::visited {
 .github-link {
     color: #4ecdc4;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: calc(9px + 1.5vw);
-    text-align:center;
+    font-size: calc(9px + 1vw);
+    text-align:left;
     width: 85vw;
+    margin-left:5vw;
 }

@@ -9,6 +9,7 @@ const tags = [
   "film reviews",
   "book reviews",
   "personal rambling",
+    "electrodynamics"
 ];
 
 const allPosts = await Astro.glob("../pages/posts/*.md");
@@ -37,7 +38,10 @@ const posts = allPosts.map((post) => ({
             <div id="tags-container">
     <h1 id="title">Blog posts</h1>
                 <h1 id="subtitle">Filter posts by selecting tags</h1>
-
+                <h2>Press "AND/OR" button to toggle selection behavior. AND will show posts with all the selected tags, while OR shows posts with at least one of the select tags.</h2>
+                <div id="logic-toggle-div">
+                    <button id="logic-toggle" class="tag-btn">Mode: AND</button>
+                </div>
     <div id="tag-buttons">
       {tags.map((tag) => (
         <button class="tag-btn" data-tag={tag}>{tag}</button>
@@ -48,17 +52,23 @@ const posts = allPosts.map((post) => ({
             </div>
     <script define:vars={{ posts }}>
       const selectedTags = new Set();
+      let useAndLogic = true;
+
       const buttons = document.querySelectorAll(".tag-btn");
       const results = document.getElementById("results");
+      const logicToggle = document.getElementById("logic-toggle");
 
       function render() {
         results.innerHTML = "";
 
         if (selectedTags.size === 0) return;
 
-        const matches = posts.filter((post) =>
-          [...selectedTags].every((tag) => post.tags.includes(tag))
-        );
+        const matches = posts.filter((post) => {
+          const tagList = [...selectedTags];
+          return useAndLogic
+            ? tagList.every((tag) => post.tags.includes(tag))
+            : tagList.some((tag) => post.tags.includes(tag));
+        });
 
         matches.forEach((post) => {
           const relevantTags = post.tags.filter((t) =>
@@ -89,8 +99,15 @@ const posts = allPosts.map((post) => ({
           render();
         });
       });
+
+      logicToggle.addEventListener("click", () => {
+        useAndLogic = !useAndLogic;
+        logicToggle.textContent = useAndLogic ? "Mode: AND" : "Mode: OR";
+        render();
+      });
     </script>
 
   </body>
 </html>
 </Layout>
+

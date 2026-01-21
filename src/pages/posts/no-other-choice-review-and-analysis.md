@@ -20,7 +20,7 @@ tags: ["film reviews"]
       color: #cdd6f4;
       background-color: #000500 ;
     }
-    #sub_body body {
+    body {
       margin: 0 auto;
       hyphens: auto;
       overflow-wrap: break-word;
@@ -644,7 +644,7 @@ to a loss of confidence, family trouble, and utter desperation as month
 after month can go by without new employment being found – as the movie
 said, ‘to be fired is to be axed.’ The acting was superb, and the script
 was brilliant – hats off to whoever spent this long coming up with paper
-jokes. Out of sheer admiration for the creativity, here’s another paper
+jokes, I was laughing for a great part of the movie. Out of sheer admiration for the creativity, here’s another paper
 joke:</p>
 <blockquote>
 <p>I’m like one of your precious paper machines. Neglect me, and I’ll

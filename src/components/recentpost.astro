@@ -9,7 +9,7 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     <a href={url} class="post_title">{title}</a>
     <h2 class="desc">{description}</h2>
     <h3 class="tags">
-      {tags.slice(0, tags.length - 1).map((tag) => `${tag},`)}{
+      Tags: {tags.slice(0, tags.length - 1).map((tag) => `${tag},`)}{
         tags[tags.length - 1]
       }
     </h3>
@@ -37,13 +37,14 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
   #subcontainer {
     display: flex;
     flex-direction: column;
+      align-items:center;
   }
   a {
     text-decoration: underline;
   }
   .post_title {
-    margin-left: 5vw;
     margin-top: 1vh;
+      width:90vw;
     margin-bottom: 0vh;
     color: #4ecdc4;
     font-size: 20px;
@@ -51,8 +52,9 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .desc {
-    margin-left: 5vw;
+    width:90vw;
     margin-top: 1vh;
+      text-align:left;
     color: #4ecdc4;
     font-size: calc(10px + 0.5vh);
     margin-bottom: 0vh;
@@ -60,9 +62,10 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   .tags {
-    margin-left: 5vw;
     margin-top: 1vh;
-    color: #4ecdc4;
+      width:90vw;
+      color: #4ecdc4;
+      text-align:left;
     font-size: calc(5px + 0.6vh);
     font-weight: 400;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -83,8 +86,7 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     }
     .post_title {
       font-size: calc(10px + 1.5vw);
-      width: fit-content;
-      margin-left: 0;
+        text-align:left;
     }
     a {
       width: 100%;
@@ -93,7 +95,9 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     }
     .desc {
       font-size: calc(10px + 1vw);
-      margin-left: 0;
+          text-align:left;
+          /*margin-left:5vw;*/
+          width:90vw;
     }
     .tags {
       margin-left: 0;
@@ -102,6 +106,8 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
     .date {
       font-size: calc(20px + 0.5vw);
       margin-left: 0;
+          width:90vw;
+          text-align:left;
     }
   }
 </style>

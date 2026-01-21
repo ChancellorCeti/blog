@@ -75,4 +75,20 @@
         justify-content: space-between;
         border-bottom: 1vh solid #f092dd;
     }
+    @media (max-width: 600px) {
+  .header_text {
+    display: none;
+  }
+
+  .linkcontainer {
+    height: 12vh;
+  }
+
+  .menu-symbol {
+    font-size: 24px;
+  }
+        #headercontainer{
+            height:14vh;
+        }
+}
 </style>
