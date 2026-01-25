@@ -116,11 +116,15 @@ html {
 .post-tags {
     font-size: 0.8rem;
     opacity: 0.8;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #4ecdc4;
 }
 
 .post-date {
     font-size: 0.75rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0.6;
+    color: #4ecdc4;
 }
 
 /* --- Mobile polish --- */
@@ -140,4 +144,10 @@ html {
     justify-content: center; /* Centers horizontally */
     align-items:center;
     height:10vh;
+}
+.post-description {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color:#4ecdc4;
 }

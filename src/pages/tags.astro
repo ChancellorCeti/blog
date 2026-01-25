@@ -16,10 +16,14 @@ const allPosts = await Astro.glob("../pages/posts/*.md");
 
 const posts = allPosts.map((post) => ({
   title: post.frontmatter.title,
+  description: post.frontmatter.description,
+  pubDate: post.frontmatter.pubDate,
   url: post.url,
   tags: post.frontmatter.tags,
-  date: new Date(post.frontmatter.date),
-}));
+  date: new Date(post.frontmatter.pubDate),
+}))
+.sort((a, b) => b.date - a.date);;
+
 ---
 
 <Layout>
@@ -38,9 +42,9 @@ const posts = allPosts.map((post) => ({
             <div id="tags-container">
     <h1 id="title">Blog posts</h1>
                 <h1 id="subtitle">Filter posts by selecting tags</h1>
-                <h2>Press "AND/OR" button to toggle selection behavior. AND will show posts with all the selected tags, while OR shows posts with at least one of the select tags.</h2>
+                <h2>Press "AND/OR" button to toggle selection behavior. AND will show posts with all the selected tags, while OR shows posts with at least one of the selected tags.</h2>
                 <div id="logic-toggle-div">
-                    <button id="logic-toggle" class="tag-btn">Mode: AND</button>
+                    <button id="logic-toggle" class="tag-btn">Mode: OR</button>
                 </div>
     <div id="tag-buttons">
       {tags.map((tag) => (
@@ -52,7 +56,7 @@ const posts = allPosts.map((post) => ({
             </div>
     <script define:vars={{ posts }}>
       const selectedTags = new Set();
-      let useAndLogic = true;
+      let useAndLogic = false;
 
       const buttons = document.querySelectorAll(".tag-btn");
       const results = document.getElementById("results");
@@ -69,21 +73,39 @@ const posts = allPosts.map((post) => ({
             ? tagList.every((tag) => post.tags.includes(tag))
             : tagList.some((tag) => post.tags.includes(tag));
         });
+          matches.forEach((post) => {
+  const relevantTags = post.tags.filter((t) =>
+    selectedTags.has(t)
+  );
 
-        matches.forEach((post) => {
-          const relevantTags = post.tags.filter((t) =>
-            selectedTags.has(t)
-          );
+  const div = document.createElement("div");
+  div.className = "post";
 
-          const div = document.createElement("div");
-          div.className = "post";
-          div.innerHTML = `
-            <a href="${post.url}"><h3>${post.title}</h3></a>
-            <div class="post-tags">${relevantTags.join(", ")}</div>
-          `;
-          results.appendChild(div);
-        });
-      }
+  const formattedDate = post.pubDate
+    ? new Date(post.pubDate).toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      })
+    : "";
+
+  div.innerHTML = `
+    <a href="${post.url}">
+      <h3>${post.title}</h3>
+    </a>
+
+    ${formattedDate ? `<div class="post-date">${formattedDate}</div>` : ""}
+
+    ${post.description ? `<p class="post-description">${post.description}</p>` : ""}
+
+    <div class="post-tags">${post.tags.join(", ")}</div>
+  `;
+
+  results.appendChild(div);
+});
+
+
+        }
 
       buttons.forEach((btn) => {
         btn.addEventListener("click", () => {
