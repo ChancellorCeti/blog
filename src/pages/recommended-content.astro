@@ -1,0 +1,66 @@
+---
+import Header from "../components/header.svelte";
+import Layout from './layouts/Layout.astro'
+---
+<Layout>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/blogicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <!--Icons-->
+    <link rel="stylesheet" href="/recommended.css" />
+    <title>Recommended Content | Chancellor Ceti</title>
+  </head>
+  <body>
+    <Header />
+    <h1>Recommended Content</h1>
+            <p>Here follows a dump of blogs, software, and other random things that I find interesting, entertaining, or otherwise useful to list. Chaotic work in progress, hopefully some of this proves meaningful to somebody at some point in human history.</p>
+            <h2>Blogs</h2>
+            <ul>
+                <li><a href="https://mattlakeman.org/">mattlakeman.org</a> -- a great blog with content on the many countries Matt has visited, covering travel experiences as well as relevant history, geography, political context, etc (lots to learn). Also a number of thoroughly researched and well-argued essays on topics as diverse as k-pop, the Aztecs, and dog ownership. And some very interesting/disturbing 'experiments' where he subjects himself to sleep deprivation, sensory deprivation, weird diets, etc for the sake of just seeing what happens.</li>
+<li><a href="https://www.chinatalk.media/">chinatalk.media</a> -- lots of interesting articles on China, especially regarding Chinese technology, politics, and foreign policy</li>
+                <li><a href="https://marginalrevolution.com/">marginalrevolution.com</a> -- blog run by Tyler Cowen and Alex Tabarrok, lots of interesting content on economics, technology, and other things that the authors find interesting. Mainly consists of link dumps and short essays, lots of good content to think about, and the comments section sometimes hosts good debates.</li>
+                <li><a href="https://middlestage.blogspot.com/">middlestage.blogspot.com</a> -- a blog with lots of interesting book reviews, I've discovered a lot of authors and books through this blog and learned plenty of random cool things about the world</li>
+                <li><a href="https://manuelhinds.substack.com/">manuelhinds.substack.com</a> -- Manuel Hinds's (former Finance Minister of El Salvador) substack, lots of good commentary on politics and economics. If you sort by 'top posts' there are some very helpful articles for understanding dollarization.</li>
+                <li><a href="https://daviddfriedman.substack.com/">daviddfriedman.substack.com</a> -- David Friedman's (yes, Milton's son) substack -- lots of topics but mainly economics, politics, cultural commentary, and discussions of logic and statistics. </li>
+                <li><a href="https://scottsumner.substack.com/">scottsumner.substack.com</a> -- Scott Sumner's substack on economics, politics, and other random stuff. Great for learning about monetary policy and the idea that central banks should set NGDP targets rather than inflation targets.</li>
+                <li><a href="https://www.paulgraham.com/index.html">paulgraham.com/index.html</a> -- Paul Graham's (ycombinator founder) writings on startups and interesting ideas on how to think, write, and work better</li>
+                <li><a href="https://www.northsouthnotes.org/">northsouthnotes.org</a> -- substack of Vincent Bevins (author of The Jakarta Method), currently in an experimental phase where it's trying to become a global affairs magazine with articles from several authors. Interesting articles so far, and I'm excited to see what this transforms into.</li>
+                <li><a href="https://codeforces.com/blog/adamant">codeforces.com/blog/adamant</a> -- Adamant's codeforces blog, one of the best sources on the internet to learn about obscure competitive programming tricks. Lots of cool stuff on combinatorics, generating functions, and competitive programming algorithms</li>
+                <li><a href="https://gbroxey.github.io/blog/">gbroxey.github.io/blog</a> -- Griff's blog on math and programming, the posts on summing multiplicative functions are the best resource for navigating Project Euler's number theory problems. Lots of fun combinatorics and number theory posts, and great for learning to solve Project Euler's number theory problems</li>
+            <li><a href="https://mylittleinfinity.netlify.app/">mylittleinfinity.netlify.app</a> -- Kira's blog on math, coding projects, random thoughts, and life updates. New blog but already lots of interesting stuff.</li>
+            </ul>
+            <h2>News Sites and the Best Authors on Them</h2>
+            <ul>
+                <li>My bread and butter sites: Reuters, Associated Press, reason.com, The Guardian, and El País</li>
+                <li>Other really good sites I follow: BBC, Financial Times, Wall Street Journal, The Economist</li>
+                <li>For Indian news, theprint.in + thewire.in + scroll.in + outlookindia.com + newslaundry</li>
+                <li>Best authors at theprint.in who are worth following: Praveen Swami (the best), Amitabh Dubey, Vir Sanghvi, DK Singh</li>
+                <li>Aparna Bhattacharya and Joydeep Sarkar at thewire.in write many good stories on West Bengal</li>
+                <li>Hacker News (news.ycombinator.com) is good for tech news</li>
+            </ul>
+            <h2>Useful software stuff</h2>
+            <ul>
+                <li><a href="https://endeavouros.com/">EndeavourOS</a> -- easy-to-install Arch-based Linux distribution, my first introduction to Arch and an OS I recommend to anyone wanting to transition to using Linux. Installing base Arch as a complete newbie is difficult, but EndeavourOS has all the benefits of Arch while also being friendly to beginners. EndeavourOS, or any lightweight Arch installation, gives you much better computer performance because the OS has less bloat, and it also gives you greater control over your computer than most other Linux distros. If you're using Windows or MacOS, then pretty much any Linux distro has the advantage of "it's not spyware" -- please just don't use Windows if you're on a personal computer and have the ability not to.</li>
+                <li><a href="https://wiki.archlinux.org/title/Main_page">The Arch Linux wiki</a>, the best online documentation for anything related to Arch Linux.</li>
+                <li><a href="https://wiki.archlinux.org/title/IBus">Ibus</a>, a tool that lets you switch between multiple languages' input methods easily -- useful if you find yourself typing in languages that don't use the Latin script. <a href="https://github.com/sarim/ibus-avro">Ibus Avro</a> is a Bangla input method that works very well with Ibus, and for simplified Chinese, I use <a href="https://github.com/libpinyin/ibus-libpinyin">ibus-libpinyin</a> to get pinyin input.</li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin">Gboard</a> offers multilingual text input on Android, very easy-to-use and the best solution I've found so far.</li>
+                <li><a href="https://cmus.github.io/">cmus</a>, a command line music player that can work with any imaginable file format. This, combined with a large collection of very-legally-acquired mp3 files, is how I listen to music. No bloatware (a blessing for my low-RAM computer), no advertisements, no algorithms psychoanalyzing you based on your music tastes, just a good music player.</li>
+                <li><a href="https://spotdl.readthedocs.io/en/latest/">spotDL</a>, the easiest way to get your own collection of very-legally-obtained mp3 music. Python tool that will download all the songs on a Spotify playlist as mp3's, incredibly useful</li>
+                <li><a href="https://neovim.io/">Neovim</a>, a terminal text editor that is lightweight and offers lots of productivity hacks (Vim key bindings!!), easy configuration using Lua, and good language server options. I use this text editor for 99% of my writing+coding needs, it's awesome. For help learning how to use Neovim, the Primagen videos on Youtube are very helpful.</li>
+                <li><a href="https://pandoc.org/MANUAL.html#math-rendering-in-html">Pandoc</a> and how you can use it to compile LaTeX code to HTML for publishing to the web. This is how I get math and physics blog posts up on this blog.</li>
+                <li><a href="https://alacritty.org/">Alacritty</a>, good terminal emulator that's easy to configure and requires very little mental gymnastics. Works for my case, might work for you as well.</li>
+                <li>Use i3 and picom for the best window manager and compositor combination. One evening spent on configuration and you'll have a bloat-free, aesthetically pleasing setup that's great for productivity.</li>
+                <li>Firefox+UBlock Origin extension+Dark Reader extension = good browsing experience with no advertisements and dark mode on all web pages so your eyes don't hurt.</li>
+            </ul>
+            <h2>Saving Money</h2>
+            <ul>
+                <li><a href="https://annas-archive.gd/">Anna's Archive</a>, non-profit that provides free access to almost every book or academic paper you could ever need in your life. Due to copyright laws, the feds periodically take down Anna's Archive domains, so the link provided might not function in a few months, in which case you should just google search for currently working domains. This will save you thousands of dollars over the course of your life.</li>
+                <li><a href="https://fmhy.net/">Free Media Heck Yeah (fmhy)</a>, a collection of websites that let you access books, articles, movies, tv shows, music, etc for free. If there's a type of media, fmhy knows the website where you can download it.</li>
+                <li>You can find archived versions of news articles on <a href="https://web.archive.org/">the Internet Archive's Wayback Machine</a> and <a href="https://archive.ph/">archive.ph</a>, allowing you to get past paywalls and read articles from a dozen websites without paying for a dozen subscriptions. I prefer to start with archive.ph by inputting the paywalled URL, and if I don't find it there, I go to the Wayback Machine.</li>
+            </ul>
+  </body>
+</html>
+</Layout>
