@@ -69,6 +69,7 @@ const posts = allPosts.map((post) => ({
 
         const matches = posts.filter((post) => {
           const tagList = [...selectedTags];
+              console.log(tagList);
           return useAndLogic
             ? tagList.every((tag) => post.tags.includes(tag))
             : tagList.some((tag) => post.tags.includes(tag));
@@ -110,6 +111,7 @@ const posts = allPosts.map((post) => ({
       buttons.forEach((btn) => {
         btn.addEventListener("click", () => {
           const tag = btn.dataset.tag;
+              if (!tag) return;
           btn.classList.toggle("active");
 
           if (selectedTags.has(tag)) {
