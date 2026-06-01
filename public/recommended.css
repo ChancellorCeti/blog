@@ -69,3 +69,25 @@ li {
   margin-left: 10vw;
     text-align: left;
 }
+
+.channel-list {
+    margin-left: 5vw;
+    padding-left: 2rem;
+}
+
+.channel-list > li {
+    margin-bottom: 1rem;
+}
+
+.channel-list ul {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    padding-left: 1.5rem;
+}
+
+.channel-list ul li {
+    width: auto;
+    margin-left: 0;
+    font-size: calc(12px + 0.5vw);
+    line-height: 1.5;
+}
