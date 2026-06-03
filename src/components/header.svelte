@@ -15,10 +15,6 @@
         <span class="material-symbols-outlined menu-symbol"> info </span>
         <h5 class="header_text">About Me</h5>
     </a>
-    <a href="/projects" class="linkcontainer">
-        <span class="material-symbols-outlined menu-symbol"> code </span>
-        <h5 class="header_text">My Projects</h5>
-    </a>
 </div>
 
 <style is:global>
