@@ -4,7 +4,7 @@ title: "Interesting Things I Did in the Week of 30 November"
 pubDate: 2025-12-08
 description: "Summary of everything I read over the last week: Indian politics and Richard Lloyd Parry's 'In the Time of Madness'"
 author: 'Chancellor Ceti'
-tags: ["personal rambling"]
+tags: ["personal rambling","link-dump"]
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">

@@ -4,7 +4,7 @@ title: "Interesting Articles, Poetry, Music, etc – April 12"
 pubDate: 2026-4-12
 description: "Links to lots of interesting articles, a summary of what I've been reading lately, and sharing some nice music I've discovered recently"
 author: 'Chancellor Ceti'
-tags: ["personal rambling"]
+tags: ["personal rambling","link-dump"]
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">

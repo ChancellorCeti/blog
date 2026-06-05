@@ -489,3 +489,5 @@ promoting intellectual freedom and an objective treatment of history.
 The dogmatic thinking and poor teaching on both sides of the political
 spectrum must be acknowledged and rectified in order to redeem US
 history education and help develop a better society.</p>
+</div>
+</body>
