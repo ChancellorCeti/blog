@@ -4,7 +4,7 @@ title: "June 5 Curated Media Diet: News, Politics, And K-pop Music"
 pubDate: 2026-6-5
 description: "What the title says"
 author: 'Chancellor Ceti'
-tags: ["link-dump"]
+tags: ["link-dump", "politics"]
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
