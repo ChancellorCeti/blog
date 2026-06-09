@@ -316,7 +316,7 @@ exist it is justified by years of oppression, it’s no wonder that kids
 can’t come to terms with how a well-meaning movement can often be
 hijacked and turned destructive, to the detriment of the movement and
 the US as a whole. Even more disturbing is the large contingent of Luigi
-Mangione fans present at my school and among Gen Z as a whole – 14000+
+Mangione fans present at my school and among Gen Z as a whole – 250+
 hours of US history education, and all they’ve learnt is that shooting
 CEOs is a productive way of effecting social change. Perhaps there were
 some blind spots in the curriculum after all…</p>
