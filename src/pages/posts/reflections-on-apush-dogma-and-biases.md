@@ -231,7 +231,7 @@ sense of civic responsibility.</p>
 <p>The inadequacy in teaching content stems from several factors, but
 most prominent in my experience is the biases of teachers and their
 tendency to give undue emphasis to certain topics. The strongest example
-of this is the poor teaching of economic history. In my 14000+ hours
+of this is the poor teaching of economic history. In my 250+ hours
 spent in an AP US History (APUSH) class, I can’t recall a single
 instance in which socialist economic ideas received scrutiny, criticism,
 or any thought beyond blind praise. In contrast, laissez-faire
