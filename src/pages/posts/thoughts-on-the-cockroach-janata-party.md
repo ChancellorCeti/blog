@@ -208,8 +208,8 @@ This is most clearly reflected in their five-point manifesto. The
 sentiment behind each of their goals is laudable, but the reductive
 language and refusal to address more divisive issues is problematic and
 reflects the broader problem of trying to harness youth anger rather
-than well-thought-out political ideas. I will review them one by one and
-explain my thoughts.</p>
+than well-thought-out political ideas. I will review the points in their
+manifesto one by one and explain my thoughts.</p>
 <blockquote>
 <p>If the CJP comes in power, no Chief Justice shall be granted a Rajya
 Sabha seat as a post-retirement reward.</p>
