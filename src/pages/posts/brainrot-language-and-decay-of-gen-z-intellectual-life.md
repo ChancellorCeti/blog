@@ -4,7 +4,7 @@ title: "Brainrot Language, and the Decay of Generation Z’s Intellectual Life a
 pubDate: 2026-6-12
 description: "What the rise in quantity and usage of brainrot words tells us about Gen Z's intellectual life and culture, as well as the power corporate-run algorithms have over our minds"
 author: 'Chancellor Ceti'
-tags: ["opinion"]
+tags: ["cultural commentary"]
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
