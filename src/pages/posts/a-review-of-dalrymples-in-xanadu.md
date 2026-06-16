@@ -79,7 +79,9 @@ tags: ["book reviews"]
       color: #1a1a1a;
     }
     img {
-      max-width: 100%;
+      max-width: 700px;
+        width:90%;
+        height:auto;
     }
     svg {
       height: auto;
@@ -203,6 +205,9 @@ places, and honesty about the difficulties of travel as well as the
 amazing things he saw. A note before continuing – there are some
 spoilers here for the sake of illustrating what the book is like, but
 nothing significant I hope.</p>
+<p><img src="/images/dalrymple-map.png"
+alt="Map of Dalrymple’s path, pulled from the book" /> <br/><em>Map of
+Dalrymple’s path, pulled from the book</em></p>
 <p>The humor makes this book quite unique in its genre, since Dalrymple
 did a great job finding mirth in even the most dire circumstances, and
 he had lots of wild experiences to keep providing joke material. I was
@@ -299,6 +304,12 @@ sheer scale of the vast, unsupported, heavenward-thrusting dome. It
 encloses an enormous space, far greater than one would expect from the
 outside. It dwarfs the observer.</p>
 </blockquote>
+<p><img src="/images/Soltaniyeh_dome_by_Mardetanha_6355.JPG"
+alt="Picture of the Soltaniyeh mauseoleum Dalrymple praised, taken from Wikimedia Commons under GNU Free Documentation License" />
+<br/><em>Picture of the Soltaniyeh mauseoleum Dalrymple praised, taken from
+<a
+href="https://commons.wikimedia.org/wiki/File:Soltaniyeh_dome_by_Mardetanha_6355.JPG">Wikimedia
+Commons</a> under GNU Free Documentation License</em></p>
 <p>Dalrymple’s extensive knowledge of history and architecture, combined
 with his passion for both subjects, makes the book both educational and
 fun to read, packed with descriptions of beautiful mausoleums and
@@ -337,9 +348,9 @@ intolerance and self-righteousness of all of them.</p>
 <p>Dalrymple’s description of recent history and the state of affairs at
 the time of his traveling serves as an amazing window into what these
 parts of the world were like in 1986. Aside from depressing political
-developments, Dalrymple’s description of landscapes is enchanting.
-He traveled through deserts, fertile plains, and mountains and captured
-the beauty of all of them with a writing style that blurred the lines
+developments, Dalrymple’s description of landscapes is enchanting. He
+traveled through deserts, fertile plains, and mountains and captured the
+beauty of all of them with a writing style that blurred the lines
 between poetry and prose. Even when he was at his most opinionated and
 cynical, he did a great job creating a picture of what he was
 witnessing.</p>
