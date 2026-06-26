@@ -215,7 +215,7 @@ Platner so eloquently put it. Before you click “post,” ask yourself –
 “is this a Monumentally Embarrassing Social media Statement?” If the
 answer is yes, then don’t click post!</p>
 <p>This simple strategy will help you avoid significant embarrassment
-and allow your candidates to keep their racist, antisemitic, far-left,
+and allow your candidates to keep their racist, anti-Zionist, far-left,
 and violent views to themselves so that people can at least claim
 ignorance when voting stupidity into power (which they’re already doing
 even with full awareness). When I was in preschool, I was taught about
@@ -276,7 +276,7 @@ these opinions to herself.</p>
 <p>Or, alternatively, don’t just stop at keeping your radical, poorly
 thought-out, and offensive views inside your head – maybe don’t adopt
 these opinions at all! I’m probably being impractical, but is it really
-too much to ask that the left find candidates who aren’t antisemitic,
+too much to ask that the left find candidates who aren’t anti-Zionist,
 racist, or against such basic things as policing and a prison
 system?</p>
 <p>Oh, and another pointer – if you really <em>must</em> call for the
