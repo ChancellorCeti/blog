@@ -1,0 +1,373 @@
+---
+layout: '../layouts/MarkdownPostLayout.astro'
+title: "Advice from the Heart for the Leadership of the American Left"
+pubDate: 2026-6-26
+description: "Satire in case it wasn't obvious -- a call for better vetting of candidates, and not electing people whose social media presence and political views are as unhinged as Trump's"
+author: 'Chancellor Ceti'
+tags: ["politics"]
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Advice from the Heart For the Leadership of the American Left</title>
+  <style>
+    html {
+      color: #cdd6f4;
+      background-color: #000500 ;
+    }
+    body {
+      margin: 0 auto;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      background-color:#000500;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+      font-size:18px;
+    }
+    #sub_body *{
+        color:#cdd6f4;
+    }
+    #sub_body{
+        padding-left: 10vw;
+      padding-right: 10vw;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .header_text{
+        font-size: calc(1px+0.8vh+0.1vw);
+        font-style:normal;
+        margin: 0 0 0 0;
+        margin-top:2vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: white;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<div id="sub_body">
+<h1
+id="advice-from-the-heart-for-the-leadership-of-the-american-left">Advice from the Heart for the Leadership of the American Left</h1>
+<p>To Mr. Mamdani, the Young Turks in the Democratic Party, and other
+radical leftists in America,</p>
+<p>I respect that some of your favored candidates hold views I disagree
+with, and I’m even willing to tolerate a few congressmen who <a
+href="https://www.noahpinion.blog/p/the-democrats-have-their-own-maga#:~:text=We%20are%20Westerners%20fighting%20for%20the%20total%20eradication%20of%20Western%20civilization">“are
+Westerners fighting for the total eradication of Western
+civilization”</a>, as Democratic candidate for Congress Avila Chevalier
+has proclaimed herself to be. But for the sake of political viability
+and not freaking out establishment stooges such as myself, I have a few
+suggestions for your vetting process and management of social media
+presence.</p>
+<p>First, I suggest any leftists with political aspirations use the MESS
+test before posting on social media. MESS stands for
+<strong>M</strong>onumentally <strong>E</strong>mbarrassing
+<strong>S</strong>ocial Media <strong>S</strong>tatements your
+candidates posted while <a
+href="https://www.politico.com/news/2025/10/16/maine-senate-candidate-promoted-violent-political-action-in-since-deleted-online-posts-00613037#:~:text=fucking%20around%20on%20the%20internet">“fucking
+around on the internet”</a>, as Democratic candidate for Senate Graham
+Platner so eloquently put it. Before you click “post,” ask yourself –
+“is this a Monumentally Embarrassing Social media Statement?” If the
+answer is yes, then don’t click post!</p>
+<p>This simple strategy will help you avoid significant embarrassment
+and allow your candidates to keep their racist, antisemitic, far-left,
+and violent views to themselves so that people can at least claim
+ignorance when voting stupidity into power (which they’re already doing
+even with full awareness). When I was in preschool, I was taught about
+everyone needing to have some “inside thoughts”: things you think or
+feel but that you don’t express out loud because it could cause problems
+for you or other people. American leftists would do well to start
+keeping some “inside thoughts” rather than loudly voicing every opinion
+they have. For example, it’s perfectly fine that Graham Platner thought
+of himself as a <a
+href="https://archive.is/KyGuI#selection-3249.152-3249.187:~:text=I%20got%20older%20and%20became%20a%20communist%2E%E2%80%9D">communist</a>
+five years back, thinks <a
+href="https://archive.is/KyGuI#selection-3665.3-3665.23:~:text=All%20of%20them%2C%20in%20fact">all
+cops</a> are bastards, and has had a <a
+href="https://www.pbs.org/newshour/politics/maine-democrat-platner-on-defense-over-tattoo-takes-page-from-trump-playbook-to-keep-up-senate-bid">Nazi
+tattoo</a> since 2007 (although he claims he never bothered to find out
+what the tattoo was until 2026). It’s just that he’d really do himself
+and his party a service if he would keep these things to himself rather
+than loudly advertising these beliefs on a Reddit account very easily
+linked to his real-life identity, potentially jeopardizing the
+Democrats’ chances at victory in Maine against a Republican incumbent
+after these posts were discovered by journalists.</p>
+<p>Or take Darializa Avila Chevalier as another example: a democratic
+socialist endorsed by Zohran Mamdani for a New York congressional
+election. Defender of the poor, critical of ICE, speaks up for Gaza –
+all sounds great, until you stumble upon her social media posts from 4-5
+years back. These include <a
+href="https://abc3340.com/news/nation-world/mamdani-backed-house-candidates-deleted-posts-called-for-abolishing-police-borders-democratic-socialist-nyc-adriano-espaillat-primary-blm-bernie-sanders-aoc-joe-biden#:~:text=fetishizing%20ugly%20colonizer%20women">criticizing</a>
+Black and Arab men for “fetishizing ugly colonizer women” (wasn’t the
+GOP the one attacking interracial relationships earlier?), <a
+href="https://abc3340.com/news/nation-world/mamdani-backed-house-candidates-deleted-posts-called-for-abolishing-police-borders-democratic-socialist-nyc-adriano-espaillat-primary-blm-bernie-sanders-aoc-joe-biden#:~:text=called%20Joe%20Biden">calling</a>
+Biden a “rapist” and “war criminal,” <a
+href="https://edition.cnn.com/2026/06/01/politics/kfile-ny-13-darializa-avila-chevalier-deleted-tweets-defund-abolish-police-prisons-deportations#:~:text=Israel%20doesn%E2%80%99t%20exist">claiming</a>
+Israel doesn’t exist, and making some very nuanced and thought-provoking
+remarks on <a
+href="https://www.cnn.com/2026/06/01/politics/kfile-ny-13-darializa-avila-chevalier-deleted-tweets-defund-abolish-police-prisons-deportations">police
+reform</a>:</p>
+<blockquote>
+<p>During the nationwide protests in 2020 following the killing of
+George Floyd, Avila Chevalier responded to a user asking what a better
+slogan would be than “defund the police,” by posting, “F**k you. We’re
+gonna defund and abolish. You don’t get to water down our
+movements.”</p>
+</blockquote>
+<blockquote>
+<p>Two days later, Avila Chevalier rejected an argument that abolishing
+police meant ending policing only “as we know it.”<br />
+“No. It means ending policing full stop. Period. No more police at all
+ever,” she replied, adding several clap emojis.</p>
+</blockquote>
+<blockquote>
+<p>She also reposted a message stating, “In New York they don’t say ‘I
+love you,’ they say ‘NYPD suck my dick’ and I think that’s
+beautiful.”</p>
+</blockquote>
+<p>Again, all very valid opinions backed by evidence and logic I’m sure,
+but maybe it would’ve been good for her political career if she’d kept
+these opinions to herself.</p>
+<p>Or, alternatively, don’t just stop at keeping your radical, poorly
+thought-out, and offensive views inside your head – maybe don’t adopt
+these opinions at all! I’m probably being impractical, but is it really
+too much to ask that the left find candidates who aren’t antisemitic,
+racist, or against such basic things as policing and a prison
+system?</p>
+<p>Oh, and another pointer – if you really <em>must</em> call for the
+total eradication of Western civilization, try making your argument
+without extensive use of profanity and <em>ad hominem</em> attacks. It
+really discredits your argument, makes you look intellectually immature,
+and causes massive embarrassment a few years later when you run for
+public office. For example, instead of <a
+href="https://archive.is/KyGuI#selection-3705.103-3707.13:~:text=Platner%20wrote">posting</a></p>
+<blockquote>
+<p>“We shouldn’t have the eat the pain because you c*nts and
+Massachusetts couldn’t act like adults. F**k off and die, leave Maine
+out of your capitalist fantasies.”</p>
+</blockquote>
+<p>Perhaps Mr. Platner could’ve written something along the lines of
+“respectfully, I agree to disagree because XYZ.” Teenagers can be
+excused for expletive-laden attacks on online interlocutors when arguing
+over politics – 37-year-old men looking to enter politics should be more
+circumspect in their speech. Or, when you lose your head in the moment,
+at least try to feign remorse later rather than doubling down on <em>ad
+hominem</em> attacks in <a
+href="https://archive.is/KyGuI#selection-3829.49-3829.82:~:text=not%20really%20regretful%20of%20that%20one">CNN
+interviews</a>.</p>
+<blockquote>
+<p>In another post in 2010, Platner took aim at musician Ted Nugent, a
+conservative activist. “As a combat veteran, that m*therf**ker makes me
+want to puke when he spews his warmongering macho bullshit. Suck a d*ck,
+Ted.”<br />
+“To be fair,” Platner told CNN. “I’m not really regretful of that
+one.”</p>
+</blockquote>
+<p>Avila Chevalier and Platner have shown very little regret for their
+reprehensible remarks online (and in Chevalier’s case, some of her
+activism at Columbia University), and the left-wing establishment as a
+whole has shown too little discomfort with their support for such
+people.</p>
+<p>Finally, a word to the leadership of this new radical faction plagued
+by candidates with severe runs-mouth-like-loose-cannon syndrome. Before
+you endorse a candidate and begin campaigning for them, you should ask
+them a few questions</p>
+<ol type="1">
+<li>Any Nazi tattoos or other skeletons in the closet we should know
+about?</li>
+<li>Are any of your ideas dangerous to the country’s future if actually
+implemented and likely to alienate a majority of Americans?</li>
+<li>Have you ever expressed an interest in “the pyromania associated
+with anarchism” the way Avila Chevalier <a
+href="https://web.archive.org/web/20200418125606/https://twitter.com/darializabonet/status/1251243114007855107">did
+in 2020</a>?</li>
+<li>Are any of your other statements or posts so vile and/or deranged
+that we should seriously reconsider endorsing you?</li>
+</ol>
+<p>Because it’s embarrassing that left-wing politicians are receiving
+such little vetting before being endorsed in important elections in the
+House and Senate. The GOP can afford to nominate people with a history
+of racist and sexist remarks, since their base is less bothered by it
+and some of their voters actually appreciate it – the Democratic Party,
+however, will not survive if its candidates resort to the same level of
+vulgarity and coarseness as Republicans. Mamdani did not endorse a
+candidate in every district of New York, he endorsed only three and
+attested to their stellar character in interviews. Given the selectivity
+of his endorsements, it is baffling that he (and for that matter,
+anybody else) didn’t bother to ask his favored candidates about any
+skeletons in the closet, of which Avila Chevalier has plenty. Mamdani’s
+<a
+href="https://www.wfmd.com/2026/06/23/mamdani-backed-socialist-with-history-of-anti-american-rhetoric-wins-vicious-dem-primary-race/#:~:text=When%20it%20comes%20to%20Darializa%E2%80%99s">response</a>
+to the Avila Chevalier controversy was:</p>
+<blockquote>
+<p>When it comes to Darializa’s campaign, I had not seen those tweets
+and what I’ve heard from her and what I know a lot of others in the
+district that have heard from her is that her views have evolved and
+that the campaign she is running on is reflective of what she’s going to
+be fighting for</p>
+</blockquote>
+<p>That’s the kind of apology I might give for my short obsession with
+Noam Chomsky in 9th grade – on the other hand, woefully inadequate for a
+prominent Democratic politician explaining his favored congressional
+candidate’s history of racist, vulgar, and far-left rhetoric. The
+nominations of Graham Platner and Darializa Avila Chevalier constitute
+some of the worst vetting of political candidates in the history of the
+American left. Either Mamdani is lying about these tweets being
+surprising news to him, in which case it’s messed up that he still
+endorsed her, or he and other democratic socialists were incredibly
+negligent in their vetting.</p>
+<p>So, again – great job on calling out weaknesses of mainstream
+Democratic politics, but before you can become a viable alternative, you
+really should work on getting slightly more sane candidates who are more
+palatable to the majority of Americans’ political and cultural
+sensibilities, and also less likely to cause a complete breakdown of law
+and order and a collapse of the economy.</p>
+<p>Regards,</p>
+<p>An Establishment Stooge</p>
+</div>
+</body>
