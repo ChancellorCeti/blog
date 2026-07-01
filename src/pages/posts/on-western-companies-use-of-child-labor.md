@@ -1,6 +1,6 @@
 ---
 layout: '../layouts/MarkdownPostLayout.astro'
-title: "On Western Companies’ Use of Child Labor"
+title: "On Western Companies’ Links to Child Labor"
 pubDate: 2026-6-28
 description: "Highlighting potential negative consequences of Western companies withdrawing from supply chains with child labor, if such a move were unaccompanied by other poverty-alleviating measures and a strong education system."
 author: 'Chancellor Ceti'
@@ -12,7 +12,7 @@ tags: ["politics", "economics"]
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>On Western Companies’ Use of Child Labor</title>
+  <title>On Western Companies’ Links to Child Labor</title>
   <style>
     html {
       color: #cdd6f4;
@@ -192,7 +192,7 @@ tags: ["politics", "economics"]
 <body>
 <div id="sub_body">
 <h1 id="on-western-companies-use-of-child-labor">On Western Companies’
-Use of Child Labor</h1>
+Links to Child Labor</h1>
 <p>Most people living in the western world agree that child labor is a
 violation of human rights and horrific form of exploitation. The
 seemingly natural corollary is that Western companies, therefore, should
