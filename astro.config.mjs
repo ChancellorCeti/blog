@@ -18,9 +18,8 @@ export default defineConfig({
       // Katex plugin options
     }]]
   },
-  output: "server",
+  output: "static",
   adapter: vercel({
-        isr:true,
         analytics:true
   }),
     site: 'https://ceti.kaush.com'
