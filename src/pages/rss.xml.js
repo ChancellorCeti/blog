@@ -15,7 +15,7 @@ export async function GET(context) {
     description: "Chancellor Ceti's blog on physics, math, coding, film, literature, politics, and history—plus whatever else inspires him",
     site: context.site,
     items: blog.map((post) => ({
-      link: `/blog/${post.id}/`,
+      link: `/posts/${post.id}/`,
       content: sanitizeHtml(md.render(post.body), {
         allowedTags: [
           'h1',
