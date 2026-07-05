@@ -2,7 +2,11 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import sanitizeHtml from 'sanitize-html';
 import MarkdownIt from 'markdown-it';
-const parser = new MarkdownIt();
+const md = new MarkdownIt({
+  html: true,
+  linkify: true,
+  typographer: true,
+});
 
 export async function GET(context) {
   const blog = await getCollection('blog');
@@ -12,9 +16,55 @@ export async function GET(context) {
     site: context.site,
     items: blog.map((post) => ({
       link: `/blog/${post.id}/`,
-      // Note: this will not process components or JSX expressions in MDX files.
-      content: sanitizeHtml(parser.render(post.body), {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img'])
+      content: sanitizeHtml(md.render(post.body), {
+        allowedTags: [
+          'h1',
+          'h2',
+          'h3',
+          'h4',
+          'h5',
+          'h6',
+          'p',
+          'br',
+          'hr',
+          'blockquote',
+          'pre',
+          'code',
+          'ul',
+          'ol',
+          'li',
+          'strong',
+          'em',
+          'b',
+          'i',
+          'a',
+          'img',
+          'table',
+          'thead',
+          'tbody',
+          'tr',
+          'th',
+          'td'
+        ],
+
+        allowedAttributes: {
+          a: ['href', 'title'],
+          img: ['src', 'alt', 'title'],
+        },
+
+        allowedSchemes: ['http', 'https', 'mailto'],
+
+        disallowedTagsMode: 'discard',
+
+        allowedClasses: {},
+        allowedStyles: {},
+
+        transformTags: {
+          a: sanitizeHtml.simpleTransform('a', {
+            target: '_blank',
+            rel: 'noopener noreferrer'
+          })
+        }
       }),
       ...post.data,
     })),
