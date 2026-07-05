@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 
+import vercel from "@astrojs/vercel";
 import partytown from "@astrojs/partytown";
 // https://astro.build/config
 export default defineConfig({
@@ -17,6 +18,9 @@ export default defineConfig({
       // Katex plugin options
     }]]
   },
-  output: "static",
+  output: "server",
+  adapter: vercel({
+        analytics:true
+  }),
     site: 'https://ceti.kaush.com'
 });
