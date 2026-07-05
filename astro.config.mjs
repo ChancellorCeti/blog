@@ -20,6 +20,7 @@ export default defineConfig({
   },
   output: "server",
   adapter: vercel({
+        isr:true,
         analytics:true
   }),
     site: 'https://ceti.kaush.com'
