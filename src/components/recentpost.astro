@@ -1,17 +1,21 @@
 ---
-const { width, height, title, tags, description, pubdate, totalwidth, url } =
+const { width, height, title, tags=[], description, pubdate, totalwidth, url } =
   Astro.props;
+const formattedDate =
+  pubdate instanceof Date
+    ? pubdate.toISOString().split("T")[0]
+    : String(pubdate).split("T")[0];
 ---
-
 <div id="container">
   <div id="subcontainer">
-    <span class="date">{pubdate.split("T")[0]}</span>
+    <span class="date">{formattedDate}</span>
+
     <a href={url} class="post_title">{title}</a>
+
     <h2 class="desc">{description}</h2>
+
     <h3 class="tags">
-      Tags: {tags.slice(0, tags.length - 1).map((tag) => `${tag},`)}{
-        tags[tags.length - 1]
-      }
+      Tags: {tags.join(", ")}
     </h3>
   </div>
 </div>
@@ -38,9 +42,6 @@ const { width, height, title, tags, description, pubdate, totalwidth, url } =
   #subcontainer {
     display: flex;
     flex-direction: column;
-  }
-  a {
-    text-decoration: underline;
   }
   .post_title {
     margin-top: 1vh;

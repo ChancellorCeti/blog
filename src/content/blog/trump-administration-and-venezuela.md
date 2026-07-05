@@ -1,0 +1,464 @@
+---
+layout: '../layouts/MarkdownPostLayout.astro'
+title: "How The Trump Administration Controls Venezuela, and Potential Consequences of That Power"
+pubDate: 2026-06-24
+description: "How the US controls the Venezuelan government's finances, what they plan to do with that leverage, and why this power could potentially have disastrous consequences for human rights and environmental degradation, as well as constituting an affront to democratic principles"
+author: 'Chancellor Ceti'
+tags: ["politics"]
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>How The Trump Administration Controls Venezuela, and Potential Consequences of That Power</title>
+  <style>
+    html {
+      color: #cdd6f4;
+      background-color: #000500 ;
+    }
+    body {
+      margin: 0 auto;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      background-color:#000500;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+      font-size:18px;
+    }
+    #sub_body *{
+        color:#cdd6f4;
+    }
+    #sub_body{
+        padding-left: 10vw;
+      padding-right: 10vw;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .header_text{
+        font-size: calc(1px+0.8vh+0.1vw);
+        font-style:normal;
+        margin: 0 0 0 0;
+        margin-top:2vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: white;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<div id="sub_body">
+<h1
+id="how-the-trump-administration-controls-venezuela-and-potential-consequences-of-that-power">How
+The Trump Administration Controls Venezuela, and Potential Consequences
+of That Power</h1>
+<blockquote>
+<p>Los Estados Unidos son potentes y grandes.<br />
+Cuando ellos se estremecen hay un hondo temblor<br />
+que pasa por las vértebras enormes de los Andes.<br />
+Si clamáis, se oye como el rugir del león.</p>
+</blockquote>
+<blockquote>
+<p>The United States is strong and big.<br />
+When it shakes there is a deep tremor<br />
+through the enormous vertebrae of the Andes.<br />
+If you clamor, you hear the roar of the lion.</p>
+</blockquote>
+<p><em>‘A Roosevelt’ by Rubén Dario</em></p>
+<p>Written in 1904, these bitter lines still hold truth over a century
+later. Rubén Dario’s poetry was inspired by his revulsion at US
+interventionism in Panama under Theodore Roosevelt, but over a century
+later, the same history is playing out but in Venezuela and Cuba this
+time (although <a href="https://www.youtube.com/watch?v=jjHTr0Cd_XA">it
+seems Panama might also be on the cards</a>). The Trump administration’s
+actions in these countries are changing the futures of millions of
+people and shaping a new geopolitical order. However, even if we are
+living through a historic moment, most Americans are oblivious to
+it.</p>
+<p>The US intervention in Venezuela received minute-by-minute coverage
+during the overnight operation to capture Maduro, but since then, the
+aftermath of “Operation Absolute Resolve” has received less attention
+from American media. Many Americans are vaguely aware of American
+“neocolonialism” and “exploitation” taking place in Venezuela right now,
+but there is less knowledge of the specific mechanisms and processes by
+which this is taking place. This blog post aims to rectify that
+information deficit and provide a summary of what has been going on
+recently, as well as my own thoughts on the crisis.</p>
+<p>Following the January 2-3 capture of Nicolás Maduro and his wife
+Cilia Flores, the United States has established control over the
+Venezuelan government’s finances, by corollary giving them leverage over
+government policy. <a
+href="https://www.federalregister.gov/documents/2026/01/15/2026-00831/safeguarding-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people">Executive
+Order 14373</a>, signed on January 9, decreed that revenues earned from
+the state-owned oil company PDVSA be put in US-controlled accounts,
+protected from <a
+href="https://en.wikipedia.org/wiki/Attachment_(law)">attachment
+processes being initiated by Venezuela’s creditors</a>, and only
+released to the Venezuelan government for uses deemed appropriate by the
+Trump administration. Per the White House’s version of events, this
+order serves to <a
+href="https://www.aljazeera.com/economy/2026/2/6/oil-and-us-oversight-how-is-venezuelas-interim-government-surviving#:~:text=Payments,debt">prevent
+the money being seized by foreign creditors</a>, <a
+href="https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-safeguards-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/#:~:text=Allowing,whole">somehow
+protect the western hemisphere against Iranian influence, and help with
+“stemming the influx of illegal aliens”</a>. The first justification
+regarding the risk of Venezuelan oil revenues being attached by foreign
+creditors is possibly a valid reason for some US involvement in
+Venezuelan affairs <a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>, while the dangers involving Iran
+and “illegal aliens” are poor justifications. However, the US’ motives
+in Venezuela are not so altruistic as to consist solely of protecting
+their oil revenue from foreign creditors.</p>
+<p>The more significant consequence of this executive order is the
+leverage it gives the White House over the Venezuelan government,
+creating a situation so dire that Spanish-language press is now
+referring to them as “los tutelados,” or “the tutelaged ones.” It is
+illustrative to note that the most direct precedent for EO 14373 is the
+<a
+href="https://www.lawfaremedia.org/article/unpacking-the-trump-administration-s-plans-for-venezuela-s-oil-revenue#:~:text=economy%2E-,The,DFI%29%2C">Development
+Fund for Iraq (DFI)</a>, which similarly prohibited attachment
+proceedings against Iraqi oil revenues and repatriated funds captured in
+the Iraq War – notably, the DFI and the executive orders protecting it
+occurred at a time when the US effectively controlled the Iraqi
+government following a ground invasion. While these two situations are
+very different, the comparison is useful for understanding how US
+control over Venezuelan finances could lead to a 2003 Iraq-like
+situation today. The last time the US held control over another
+country’s government revenues, the American government effectively
+controlled that government, and there’s little reason to expect anything
+different this time around. Any government policy or action requires
+money, so by seizing the government purse, the US has the Venezuelan
+government subordinated to its will, just as it did Iraq.</p>
+<p>While the Venezuelan government does have some non-oil revenue, there
+isn’t enough diversity of revenue sources for this to weaken the US’
+control. In 2024, <a
+href="https://www.reuters.com/world/americas/venezuelas-2025-budget-set-grow-nearly-11-oil-contribute-less-2024-12-03/">Reuters</a>
+reported that income from PDVSA accounted for 53% of the government’s
+budget. For a government so dependent on oil revenue, the US’ control
+over PDVSA income translates into near-total control of the government’s
+finances.</p>
+<p>While not wishing to belabor the point, I think it’s valuable to
+highlight another dimension of US leverage over Venezuela: the control
+over the volume of oil purchases and investment in oil infrastructure,
+and not just the revenues resulting from them. American companies needed
+the <a
+href="https://www.pbs.org/newshour/world/u-s-eases-sanctions-on-venezuelan-oil-as-trump-seeks-to-boost-world-oil-supply-during-iran-war">White
+House’s approval</a> to begin purchasing Venezuelan oil, and since that
+permission can be revoked at any time, the Venezuelan government,
+dependent on oil export revenues, has yet another reason to stay in
+Trump’s favor. The development of oilfields, also essential to economic
+growth and increased government revenue, is similarly contingent on US
+approval, since companies like Chevron, British Petroleum, and Shell are
+only able to invest in Venezuelan oilfields because of <a
+href="https://www.reuters.com/business/energy/us-allows-oil-majors-resume-venezuela-operations-broadly-okays-new-energy-2026-02-13/">licenses
+granted by the Treasury Department in February</a>. Therefore, even as
+the Venezuelan government’s revenue grows as a result of increased oil
+exports, the US will continue holding a sword over them, forcing the
+Venezuelan government to comply with the wishes of the Trump
+administration and eliminating their political autonomy.</p>
+<p>After understanding the incredible leverage the US has over the
+Venezuelan government, the next step is understanding what they wish to
+do with that power. First, let’s note the title of EO 14373:
+“Safeguarding Venezuelan Oil Revenue for the Good of the
+<em>American</em> and Venezuelan People” (emphasis mine). If this
+doesn’t start to give you an idea of Trump’s intentions, he makes it
+even clearer when speaking:</p>
+<blockquote>
+<p>“We’re going to be taking out a tremendous amount of wealth out of
+the ground, and that wealth is going to the people of Venezuela, and
+people from outside of Venezuela that used to be in Venezuela, and it
+goes also to the United States of America in the form of reimbursement
+for the damages caused us by that country” <a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</blockquote>
+<p>The White House’s rhetoric on Venezuela revolves around masquerading
+as saviors of the Venezuelan people while also revealing a bit of their
+ulterior motive of extracting benefits for the US itself (motives made
+clear thanks to Trump’s runs-mouth-like-loose-cannon syndrome).
+Everything we know about Trump suggests his concern for Venezuelans’
+wellbeing is mainly meant to bring some credibility to his extrajudicial
+military maneuver in Venezuela, so the true motive for US involvement in
+Venezuela likely lies in the part about ‘the Good of the American
+people’ and ‘reimbursement to the United States of America.’</p>
+<p>The intersection of US foreign policy and ‘the Good of the American
+people’ has traditionally meant low, stable oil prices and high profits
+for American oil companies, and this situation is no different.
+Venezuela has the world’s largest proven oil reserves (with some
+important caveats <a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a>), and US control over the Venezuelan
+government creates a safe environment for American oil companies to take
+advantage of that opportunity. Freed from the fear of arbitrary
+nationalization of oilfields and the nuisance of dealing with rampant
+government corruption, US oil companies can again begin investing in the
+region and enjoying massive profits. Expanded oil supply will also help
+reduce oil prices long-term, and strong control over the Venezuelan
+government will create the stability necessary to prevent the wild price
+fluctuations that have resulted from historic dependence on Middle
+Eastern oil.</p>
+<p>In addition to oil, the Trump administration is also likely motivated
+by mining opportunities. Venezuela has the world’s <a
+href="https://www.csis.org/analysis/venezuela-critical-minerals-target#:~:text=This%20puts%20Venezuela%20in%20fifth%20place%20for%20gold%20reserves%20globally">fifth
+largest gold reserves</a>, mostly undeveloped and providing huge
+opportunities to future American investors, in addition to coltan and
+bauxite deposits whose magnitude is still unknown but potentially
+promising <a
+href="https://www.csis.org/analysis/venezuela-critical-minerals-target#:~:text=The%20surrounding%20region%20is%20estimated%20to%20contain%20up%20to%206%20billion%20tons%20of%20probable%20bauxite%20resources%2E%20The%20ore%20itself%20is%20high%20quality">based
+on numbers from specific regions</a>. But hey, don’t take it from me, <a
+href="https://www.presidency.ucsb.edu/documents/remarks-exchange-with-reporters-aboard-air-force-one-en-route-joint-base-andrews-10">let’s
+ask the president himself</a>!</p>
+<blockquote>
+<p>Q. President Trump, are there going to be any more—you said the oil
+companies are going to go in there. Are there any other companies that
+you’ve talked to about dealing with Venezuela? Maybe Mr. Lutnick could
+talk about that. Are there any other corporations, entities, outside of
+oil?</p>
+</blockquote>
+<blockquote>
+<p>The President. Many, outside of the oil business.</p>
+</blockquote>
+<blockquote>
+<p>Q. Like who?</p>
+</blockquote>
+<blockquote>
+<p>The President. Well, the oil business, yes. But outside, yes. Howard,
+do you want to take that?</p>
+</blockquote>
+<blockquote>
+<p>Secretary of Commerce Howard W. Lutnick. So you have steel. You have
+minerals, right? All the critical minerals. They have a great mining
+history that’s gone rusty.<br />
+So steel, aluminum, minerals. I mean, this is all—it’s a rich—it was,
+once upon a time, one of the great economies and cultures of the world,
+and it was destroyed. And now, President Trump is going to fix it and
+bring it back for the Venezuelans.</p>
+</blockquote>
+<p>The Trump administration’s statements, combined with common-sense
+understanding of US foreign policy interests, suggests that the US will
+likely use its control of the Venezuelan government to gain access to
+these massive oil and mineral reserves; but while trade and investment
+themselves are actually beneficial, the lack of regulatory oversight and
+transparency could have terrifying implications for human rights and
+environmental degradation. Fair labor practices and environmental
+considerations tend to hurt companies’ short-term profit margins, and
+since the Venezuelan government’s regulatory powers are effectively nil
+under US tutelage, there is a high risk of American companies trampling
+over human rights and environmental sustainability when pursuing profit
+in Venezuelan oilfields and mines. There is plenty of historical
+precedent for this, and the Trump administration, which has already
+shown itself at ease with killing and destruction in other countries
+when beneficial to US interests, might enable some of the worst abuses
+in modern history.</p>
+<p>The Venezuelan government currently has little power to regulate
+foreign corporations, as amply demonstrated above. Neither is there
+scope for forces within the US to curb Trump’s power: the release of
+funds to the Venezuelan government and approval of licenses for oil
+companies is being managed entirely by the White House, a circumstance
+that will not change unless Congress steps in to reclaim control, an
+unlikely event given their previous refusal to curb Trump’s war powers
+in <a href="https://www.bbc.com/news/articles/c5yve8dmvn5o">Iran</a> and
+<a
+href="https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00608.htm">Venezuela</a>.
+If Congress won’t curb the president’s power to bomb other countries,
+it’s unlikely they will curb his use of more subtle means of
+control.</p>
+<p>The lack of transparency and a clear set of rules around US
+involvement is also detrimental to the creation of a healthy business
+environment. International capital fled Venezuela under Hugo Chávez’s
+regime because he made Venezuela a terrible business environment:
+oilfields held by a company for many years could arbitrarily be seized
+by the state, and the decay of the rule of law discouraged investment in
+the country. Today, the White House is encouraging US companies to do
+business in Venezuela by loosening sanctions and creating an implicit
+promise of carte blanche, but this is not enough to promote stable,
+long-term investment. In the absence of clearly defined rules about how
+the US can involve itself in Venezuelan affairs, what criteria the White
+House uses to approve the release of funds to the Venezuelan government,
+and what the long-term plan is for reconstruction of the country (if
+there is any), investors will always be unsure about the future of any
+money they have invested there – fearful that corruption may begin to
+set in again, or that the US might increase their military presence
+again, etc. This fly-by-night style of managing a country is detrimental
+to the rule of law necessary for a healthy business environment
+conducive to foreign investment.</p>
+<p>Even aside from the practical considerations regarding pollution,
+inhumane working conditions, and uncertainty about the country’s future,
+there is the issue of the undemocratic way in which Venezuela is
+currently being governed. The ousting of Nicolás Maduro has not been
+followed up by a dismantling of his authoritarian power structure, and
+there is still no roadmap for democratic elections and restoration of
+government institutions’ independence from Maduro’s party. Venezuela is
+being run by a government without an electoral mandate, which is in turn
+subordinated to a foreign government, an arrangement that goes against
+all principles of democracy as well as national sovereignty.</p>
+<h2 id="endnotes">Endnotes</h2>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I recommend <a
+href="https://www.lawfaremedia.org/article/unpacking-the-trump-administration-s-plans-for-venezuela-s-oil-revenue">this
+LawFare article</a> for more background on Executive Order 14373, the
+risk of attachment of Venezuelan assets in US courts, and the legal
+minutiae surrounding this mess.<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Quote from <a
+href="https://www.npr.org/2026/01/03/g-s1-104346/trump-venezuela-maduro-press-conference">NPR</a><a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The classification of ‘world’s largest proven oil
+reserves’ ignores that lots of the oil in Venezuela is difficult to
+extract and refine and is less accessible than sources like Texan shale
+oil. <a
+href="https://www.forbes.com/sites/rrapier/2026/01/18/why-you-should-be-skeptical-about-venezuelas-oil-reserves/">This
+Forbes article</a> provides interesting context on this issue. However,
+even with lower accessibility taken into consideration, Venezuela still
+has large economically viable oil reserves, and even their less
+accessible oil can be extracted with sufficient US investment (something
+that is already beginning to manifest).<a href="#fnref3"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</div>
+</body>

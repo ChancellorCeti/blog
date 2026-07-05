@@ -1,5 +1,4 @@
 ---
-import Header from "../../components/header.svelte";
 import Layout from './Layout.astro'
 import "../../../public/post.css";
 const { frontmatter } = Astro.props;
@@ -17,7 +16,6 @@ const { frontmatter } = Astro.props;
 
   </head>
   <body>
-    <Header />
     <slot id="content" />
   </body>
 </html>

@@ -1,6 +1,6 @@
 ---
-import Header from "../components/header.svelte";
 import Layout from "./layouts/Layout.astro";
+import { getCollection} from 'astro:content';
 
 const tags = [
   "project euler",
@@ -18,18 +18,17 @@ const tags = [
     "রাজনীতি"
 ];
 
-const allPosts = await Astro.glob("../pages/posts/*.md");
-
-const posts = allPosts.map((post) => ({
-  title: post.frontmatter.title,
-  description: post.frontmatter.description,
-  pubDate: post.frontmatter.pubDate,
-  url: post.url,
-  tags: post.frontmatter.tags,
-  date: new Date(post.frontmatter.pubDate),
-}))
-.sort((a, b) => b.date - a.date);;
-
+const allPosts = await getCollection("blog");
+const posts = allPosts
+  .map((post) => ({
+    title: post.data.title,
+    description: post.data.description,
+    pubDate: post.data.pubDate,
+    tags: post.data.tags ?? [],
+    url: `/posts/${post.id}`,
+    date: post.data.pubDate,
+  }))
+  .sort((a, b) => b.date.valueOf() - a.date.valueOf());
 ---
 
 <Layout>
@@ -44,7 +43,6 @@ const posts = allPosts.map((post) => ({
   </head>
 
   <body>
-   <Header />
             <div id="tags-container">
     <h1 id="title">Blog posts</h1>
                 <h1 id="subtitle">Filter posts by selecting tags</h1>
@@ -75,7 +73,6 @@ const posts = allPosts.map((post) => ({
 
         const matches = posts.filter((post) => {
           const tagList = [...selectedTags];
-              console.log(tagList);
           return useAndLogic
             ? tagList.every((tag) => post.tags.includes(tag))
             : tagList.some((tag) => post.tags.includes(tag));
