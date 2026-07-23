@@ -12,7 +12,7 @@ tags: ["politics"]
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Why ‘Class Struggle’ Rhetoric is a Bad Idea in Democracies</title>
+  <title>Discourse on the Israel-Hamas Conflict: Debates Over Genocide, Low Evidentiary Standards, and the Risk of Getting Bogged Down in Semantics</title>
   <style>
     html {
       color: #cdd6f4;
