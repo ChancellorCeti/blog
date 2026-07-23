@@ -191,7 +191,7 @@ tags: ["politics", "economics"]
 </head>
 <body>
 <div id="sub_body">
-<h1 id="on-western-companies-use-of-child-labor">On Western Companies’
+<h1 id="on-western-companies-links-to-child-labor">On Western Companies’
 Links to Child Labor</h1>
 <p>Most people living in the western world agree that child labor is a
 violation of human rights and horrific form of exploitation. The
@@ -242,10 +242,30 @@ impact depends on the size of the domestic market as compared to export
 volume). If anything, the decreased demand for minerals might hurt the
 mining industry and harm the wage growth that is likely already
 negligible, further punishing the families who send their kids to work
-due to abject poverty. As repulsive as it sounds, demand from Western
-companies, while using an exploitative form of labor, might actually be
-helping raise household income for some of the poorest families in the
-world who would otherwise be struggling even more to afford food.</p>
+due to abject poverty. Another possibility is that companies might
+reduce wages to factor in costs from expected fines for using child
+labor. As repulsive as it sounds, demand from Western companies, while
+using an exploitative form of labor, might actually be helping raise
+household income for some of the poorest families in the world who would
+otherwise be struggling even more to afford food.</p>
+<p>There is historical precedent for both these adverse consequences
+(decreased wages and the displacement of children into even worse jobs)
+of banning child labor. In 1993, a proposed bill by the US government
+for boycotting imports from countries using child labor led to
+Bangladeshi garment companies letting go of approximately 50,000
+children, only for most of them to end up working in smaller garment
+factories or other sectors, including prostitution <a href="#fn2"
+class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. A
+December 2014 study found that the child labor ban in India had
+similarly negative results due to gaps in enforcement and a failure to
+eliminate the root causes for child labor: child wages fell relative to
+adult wages, the likelihood of child labor increased, and the ban also
+had negative effects on school attendance and household welfare (small
+but statistically significant effects) <a href="#fn3"
+class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.
+The risks of child labor bans are not just logically consistent with the
+nature of incentives (as I argued above), but also with empirical
+evidence.</p>
 <p>The natural objection to this argument is that, thinking beyond
 short-term income gains, K-12 education is more useful for increasing
 household income because it enables children to later find higher-paying
@@ -264,15 +284,15 @@ fees, making it impossible for poor families to pay for their kids’
 enrollment. Large parts of the country do not even have schools, forcing
 children to travel impractically long distances to receive a sub-par
 education that likely won’t even provide access to better-paying jobs <a
-href="#fn2" class="footnote-ref" id="fnref2"
-role="doc-noteref"><sup>2</sup></a>. However, it is impractical for kids
+href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a>. However, it is impractical for kids
 from destitute families to sit at home, unable to attend school, while
 their families struggle to put food on the table. Western companies’
 connection to child labor is, in this case, a vital means of poverty
 alleviation so long as education remains inaccessible and families are
 so poor that they can’t afford to leave any income source (even their
-own children) untapped <a href="#fn3" class="footnote-ref" id="fnref3"
-role="doc-noteref"><sup>3</sup></a>.</p>
+own children) untapped <a href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a>.</p>
 <p>It is this second situation, of voluntary child labor caused by
 family poverty, that makes me reluctant to support a complete abstention
 by Western companies from supply chains using child labor. I find the
@@ -320,13 +340,27 @@ endnote out of an abundance of caution, wary that some readers would not
 apply the principle of charity when reading this.<a href="#fnref1"
 class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>See <a
+href="https://www.cato.org/economic-development-bulletin/case-against-child-labor-prohibitions"
+class="uri">https://www.cato.org/economic-development-bulletin/case-against-child-labor-prohibitions</a>
+which cites Oxfam, UNICEF, and the US Department of Labor.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Prashant Bharadwaj, Leah K Lakdawala, Nicholas Li,
+Perverse Consequences of Well Intentioned Regulation: Evidence from
+India’s Child Labor Ban, Journal of the European Economic Association,
+Volume 18, Issue 3, June 2020, Pages 1158–1195,
+https://doi.org/10.1093/jeea/jvz059</p>
+<p>Also available at <a
+href="https://www.worldbank.org/content/dam/Worldbank/Event/DEC/ABCDE/ABCDE-2015/4.%20Prashant%20Bharadwaj.pdf"
+class="uri">https://www.worldbank.org/content/dam/Worldbank/Event/DEC/ABCDE/ABCDE-2015/4.%20Prashant%20Bharadwaj.pdf</a><a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>See <a
 href="https://doi.org/10.1016/j.heliyon.2024.e30771"
 class="uri">https://doi.org/10.1016/j.heliyon.2024.e30771</a> “Does the
 education system matter? Exploring in-depth joint school attendance,
 hazardous and non-hazardous activities in artisanal and small-scale
 mining in the Democratic Republic of the Congo” published in Heliyon<a
-href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Empirical evidence has consistently supported the
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Empirical evidence has consistently supported the
 conclusion that family poverty is the primary driver of harmful child
 labor. See <a
 href="https://openknowledge.worldbank.org/entities/publication/6498a25d-ea16-56c1-92a5-98896d088e17">“Revisiting
@@ -334,7 +368,7 @@ the Link between Poverty and Child Labor : The Ghanaian Experience”</a>
 and <a
 href="https://jhe.researchcommons.org/journal/vol8/iss1/2/">“Child
 Labor, Poverty and School Attendance: Evidences from the Philippines by
-Region”</a><a href="#fnref3" class="footnote-back"
+Region”</a><a href="#fnref5" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
